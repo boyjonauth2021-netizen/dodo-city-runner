@@ -1,0 +1,380 @@
+{
+  "uid": "mt14",
+  "name": "Cap Malheureux",
+  "blurb": "Route Mon Choisy–Cap Malheureux to the red church of Notre Dame Auxiliatrice, looking out to Coin de Mire.",
+  "routeName": "Route Mon Choisy Cap Malheureux / Chemin du Flamant / Domarjana / Marie Louise Street / Chemin de la Fontaine / Bala Lane / Macumba Lane / Allée Beau Manguier / Route Mon Choisy Cap Malheureux",
+  "lengthM": 1905.2,
+  "sea": "left",
+  "roads": [
+    {
+      "name": "Route Mon Choisy Cap Malheureux",
+      "at": 0,
+      "length": 329.4,
+      "highway": "secondary"
+    },
+    {
+      "name": "Chemin du Flamant",
+      "at": 329.4,
+      "length": 414.4,
+      "highway": "residential"
+    },
+    {
+      "name": "Domarjana",
+      "at": 743.8,
+      "length": 204.2,
+      "highway": "footway"
+    },
+    {
+      "name": "Marie Louise Street",
+      "at": 948.0,
+      "length": 98.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Chemin de la Fontaine",
+      "at": 1046.2,
+      "length": 99.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Bala Lane",
+      "at": 1145.4,
+      "length": 139.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Macumba Lane",
+      "at": 1285.3,
+      "length": 195.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Allée Beau Manguier",
+      "at": 1481.3,
+      "length": 166.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Route Mon Choisy Cap Malheureux",
+      "at": 1647.7,
+      "length": 257.5,
+      "highway": "secondary"
+    }
+  ],
+  "turns": [
+    {
+      "at": 782.0,
+      "dir": "right",
+      "deg": 30.0,
+      "road": "Domarjana"
+    },
+    {
+      "at": 1031.5,
+      "dir": "right",
+      "deg": 25.8,
+      "road": "Marie Louise Street"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 38.0,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 107.1,
+      "heading": 40.0,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 217.0,
+      "heading": 40.8,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 311.6,
+      "heading": 40.8,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 425.6,
+      "heading": 41.7,
+      "sea": "left",
+      "road": "Chemin du Flamant",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 513.4,
+      "heading": 40.2,
+      "sea": "left",
+      "road": "Chemin du Flamant",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 691.3,
+      "heading": 48.5,
+      "sea": "left",
+      "road": "Chemin du Flamant",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 782.0,
+      "heading": 78.5,
+      "turn": "right",
+      "sea": "left",
+      "road": "Domarjana",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 864.2,
+      "heading": 74.7,
+      "sea": "left",
+      "road": "Domarjana",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 948.0,
+      "heading": 69.0,
+      "sea": "left",
+      "road": "Marie Louise Street",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1031.5,
+      "heading": 94.8,
+      "turn": "right",
+      "sea": "left",
+      "road": "Marie Louise Street",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1145.4,
+      "heading": 99.2,
+      "sea": "left",
+      "road": "Chemin de la Fontaine",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1235.3,
+      "heading": 88.8,
+      "sea": "left",
+      "road": "Bala Lane",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1335.7,
+      "heading": 85.9,
+      "sea": "left",
+      "road": "Macumba Lane",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1442.7,
+      "heading": 86.0,
+      "sea": "left",
+      "road": "Macumba Lane",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1527.6,
+      "heading": 79.6,
+      "sea": "left",
+      "road": "Allée Beau Manguier",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1647.7,
+      "heading": 68.6,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1734.4,
+      "heading": 53.7,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1828.0,
+      "heading": 46.8,
+      "sea": "left",
+      "road": "Route Mon Choisy Cap Malheureux",
+      "density": "low",
+      "buildings": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Cap Malheureux",
+      "kind": "poi",
+      "at": 1680.7,
+      "side": "right",
+      "lat": -19.986341,
+      "lon": 57.606319
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "coin_de_mire",
+      "name": "Coin de Mire / Gunner's Quoin",
+      "elev": 156,
+      "bearing": 23.1,
+      "rel": -78.7,
+      "side": "left",
+      "distKm": 5.52,
+      "crater": false,
+      "islet": true
+    }
+  ],
+  "heading0": 40.4,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 50,
+  "polyline_slim": [
+    [
+      -19.9922,
+      57.5928
+    ],
+    [
+      -19.991879,
+      57.593067
+    ],
+    [
+      -19.991451,
+      57.593442
+    ],
+    [
+      -19.990714,
+      57.594141
+    ],
+    [
+      -19.990317,
+      57.594504
+    ],
+    [
+      -19.989949,
+      57.594842
+    ],
+    [
+      -19.9893,
+      57.59545
+    ],
+    [
+      -19.988712,
+      57.596009
+    ],
+    [
+      -19.988197,
+      57.596473
+    ],
+    [
+      -19.987521,
+      57.597143
+    ],
+    [
+      -19.987288,
+      57.597575
+    ],
+    [
+      -19.987153,
+      57.598146
+    ],
+    [
+      -19.987069,
+      57.5987
+    ],
+    [
+      -19.986924,
+      57.599166
+    ],
+    [
+      -19.986594,
+      57.600046
+    ],
+    [
+      -19.986674,
+      57.600681
+    ],
+    [
+      -19.986835,
+      57.601258
+    ],
+    [
+      -19.986883,
+      57.602114
+    ],
+    [
+      -19.986874,
+      57.602592
+    ],
+    [
+      -19.986856,
+      57.603073
+    ],
+    [
+      -19.986819,
+      57.603809
+    ],
+    [
+      -19.986791,
+      57.604306
+    ],
+    [
+      -19.986735,
+      57.604902
+    ],
+    [
+      -19.986582,
+      57.605383
+    ],
+    [
+      -19.986323,
+      57.605959
+    ],
+    [
+      -19.986107,
+      57.606545
+    ],
+    [
+      -19.985912,
+      57.606908
+    ],
+    [
+      -19.98545,
+      57.607365
+    ],
+    [
+      -19.984975,
+      57.607904
+    ]
+  ]
+}

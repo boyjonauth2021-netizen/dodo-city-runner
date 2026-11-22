@@ -1,0 +1,260 @@
+{
+  "uid": "mt4",
+  "name": "Curepipe & Trou aux Cerfs",
+  "blurb": "Royal Road Curepipe past the town hall and market, then up toward the Trou aux Cerfs crater rim.",
+  "routeName": "Sir Charles Lees Street / Ducray Name / Footpath around the lakepoint / Jerningham Street / Place Ian Palach / Jerningham Street / Malartic Street / Royal Road Curepipe / Sir John Pope Hennessy Street",
+  "lengthM": 1034.7,
+  "sea": null,
+  "roads": [
+    {
+      "name": "Sir Charles Lees Street",
+      "at": 0,
+      "length": 15.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Ducray Name",
+      "at": 37.9,
+      "length": 70.1,
+      "highway": "residential"
+    },
+    {
+      "name": "Footpath around the lakepoint",
+      "at": 108.0,
+      "length": 119.5,
+      "highway": "footway"
+    },
+    {
+      "name": "Jerningham Street",
+      "at": 227.4,
+      "length": 71.6,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Place Ian Palach",
+      "at": 299.1,
+      "length": 71.7,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Jerningham Street",
+      "at": 370.7,
+      "length": 203.7,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Malartic Street",
+      "at": 574.4,
+      "length": 145.0,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Royal Road Curepipe",
+      "at": 719.5,
+      "length": 70.1,
+      "highway": "primary"
+    },
+    {
+      "name": "Sir John Pope Hennessy Street",
+      "at": 789.6,
+      "length": 245.1,
+      "highway": "unclassified"
+    }
+  ],
+  "turns": [
+    {
+      "at": 108.0,
+      "dir": "right",
+      "deg": 21.8,
+      "road": "Ducray Name"
+    },
+    {
+      "at": 574.4,
+      "dir": "left",
+      "deg": 76.9,
+      "road": "Malartic Street"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 302.2,
+      "road": "Sir Charles Lees Street",
+      "density": "medium",
+      "buildings": 5
+    },
+    {
+      "at": 108.0,
+      "heading": 324.0,
+      "turn": "right",
+      "road": "Ducray Name",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 227.4,
+      "heading": 319.2,
+      "road": "Jerningham Street",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 308.9,
+      "heading": 317.9,
+      "road": "Place Ian Palach",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 404.3,
+      "heading": 310.5,
+      "road": "Jerningham Street",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 487.0,
+      "heading": 318.3,
+      "road": "Jerningham Street",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 574.4,
+      "heading": 241.4,
+      "turn": "left",
+      "road": "Malartic Street",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 685.0,
+      "heading": 244.1,
+      "road": "Malartic Street",
+      "density": "high",
+      "buildings": 8
+    },
+    {
+      "at": 789.6,
+      "heading": 236.8,
+      "road": "Royal Road Curepipe",
+      "density": "high",
+      "buildings": 11
+    },
+    {
+      "at": 899.0,
+      "heading": 240.9,
+      "road": "Sir John Pope Hennessy Street",
+      "density": "high",
+      "buildings": 12
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Curepipe Market",
+      "kind": "supermarket",
+      "at": 789.6,
+      "side": "right",
+      "lat": -20.316169,
+      "lon": 57.522849
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "trou_aux_cerfs",
+      "name": "Trou aux Cerfs",
+      "elev": 605,
+      "bearing": 269.7,
+      "rel": -44.8,
+      "side": "left",
+      "distKm": 1.33,
+      "crater": true,
+      "islet": false
+    },
+    {
+      "id": "moka",
+      "name": "Moka Range",
+      "elev": 400,
+      "bearing": 351.7,
+      "rel": 37.1,
+      "side": "right",
+      "distKm": 12.03,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "ory",
+      "name": "Montagne Ory",
+      "elev": 500,
+      "bearing": 343.8,
+      "rel": 29.3,
+      "side": "right",
+      "distKm": 11.47,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 317.9,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 36,
+  "polyline_slim": [
+    [
+      -20.319,
+      57.5286
+    ],
+    [
+      -20.318508,
+      57.528126
+    ],
+    [
+      -20.317423,
+      57.527259
+    ],
+    [
+      -20.317119,
+      57.526938
+    ],
+    [
+      -20.316818,
+      57.526578
+    ],
+    [
+      -20.316553,
+      57.526268
+    ],
+    [
+      -20.316162,
+      57.525796
+    ],
+    [
+      -20.315841,
+      57.525454
+    ],
+    [
+      -20.315497,
+      57.525138
+    ],
+    [
+      -20.315875,
+      57.52387
+    ],
+    [
+      -20.316189,
+      57.523277
+    ],
+    [
+      -20.316389,
+      57.522895
+    ],
+    [
+      -20.316815,
+      57.522084
+    ],
+    [
+      -20.317407,
+      57.520947
+    ]
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "uid": "mt9",
+  "name": "Mahébourg & Blue Bay",
+  "blurb": "Route Royale into Mahébourg, then Pointe d’Esny Road toward Blue Bay and Île aux Aigrettes.",
+  "routeName": "Rue du Bazar / Renoir Street / Bambous Street / Rue du Bazar / Rue de la Boulangerie / Plaine Magnien-Mahebourg Road / Rue des Aigrettes / Rue la Chaux / Rue de la Colonie / Rue Labourdonnais / Rue des Aigrettes / Rue de la Passe / Rue des Hollandais",
+  "lengthM": 1534.5,
+  "sea": "left",
+  "roads": [
+    {
+      "name": "Rue du Bazar",
+      "at": 0,
+      "length": 111.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Renoir Street",
+      "at": 111.9,
+      "length": 90.9,
+      "highway": "service"
+    },
+    {
+      "name": "Bambous Street",
+      "at": 202.8,
+      "length": 148.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue du Bazar",
+      "at": 351.1,
+      "length": 70.4,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue de la Boulangerie",
+      "at": 421.4,
+      "length": 67.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Plaine Magnien-Mahebourg Road",
+      "at": 498.0,
+      "length": 243.8,
+      "highway": "secondary"
+    },
+    {
+      "name": "Rue des Aigrettes",
+      "at": 741.8,
+      "length": 90.7,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue la Chaux",
+      "at": 832.5,
+      "length": 67.6,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue de la Colonie",
+      "at": 900.0,
+      "length": 92.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue Labourdonnais",
+      "at": 992.5,
+      "length": 68.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue des Aigrettes",
+      "at": 1060.8,
+      "length": 73.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue de la Passe",
+      "at": 1134.0,
+      "length": 326.6,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Rue des Hollandais",
+      "at": 1463.5,
+      "length": 71.1,
+      "highway": "residential"
+    }
+  ],
+  "turns": [
+    {
+      "at": 111.9,
+      "dir": "left",
+      "deg": 101.9,
+      "road": "Rue du Bazar"
+    },
+    {
+      "at": 421.4,
+      "dir": "left",
+      "deg": 91.1,
+      "road": "Rue de la Boulangerie"
+    },
+    {
+      "at": 545.2,
+      "dir": "right",
+      "deg": 115.4,
+      "road": "Plaine Magnien-Mahebourg Road"
+    },
+    {
+      "at": 741.8,
+      "dir": "right",
+      "deg": 68.6,
+      "road": "Plaine Magnien-Mahebourg Road"
+    },
+    {
+      "at": 832.5,
+      "dir": "left",
+      "deg": 92.6,
+      "road": "Rue des Aigrettes"
+    },
+    {
+      "at": 1200.2,
+      "dir": "left",
+      "deg": 176.1,
+      "road": "Rue de la Passe"
+    },
+    {
+      "at": 1325.4,
+      "dir": "left",
+      "deg": 25.4,
+      "road": "Rue de la Passe"
+    },
+    {
+      "at": 1463.5,
+      "dir": "right",
+      "deg": 112.0,
+      "road": "Rue de la Passe"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 166.8,
+      "sea": "left",
+      "road": "Rue du Bazar",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 111.9,
+      "heading": 64.9,
+      "turn": "left",
+      "sea": "left",
+      "road": "Rue du Bazar",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 202.8,
+      "heading": 64.9,
+      "sea": "left",
+      "road": "Bambous Street",
+      "density": "high",
+      "buildings": 9
+    },
+    {
+      "at": 284.9,
+      "heading": 64.9,
+      "sea": "left",
+      "road": "Bambous Street",
+      "density": "high",
+      "buildings": 36
+    },
+    {
+      "at": 421.4,
+      "heading": 333.8,
+      "turn": "left",
+      "sea": "right",
+      "road": "Rue de la Boulangerie",
+      "density": "high",
+      "buildings": 44
+    },
+    {
+      "at": 545.2,
+      "heading": 89.1,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Magnien-Mahebourg Road",
+      "density": "high",
+      "buildings": 39
+    },
+    {
+      "at": 741.8,
+      "heading": 157.8,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Magnien-Mahebourg Road",
+      "density": "high",
+      "buildings": 28
+    },
+    {
+      "at": 832.5,
+      "heading": 65.2,
+      "turn": "left",
+      "sea": "left",
+      "road": "Rue des Aigrettes",
+      "density": "high",
+      "buildings": 48
+    },
+    {
+      "at": 947.3,
+      "heading": 64.8,
+      "sea": "left",
+      "road": "Rue de la Colonie",
+      "density": "high",
+      "buildings": 29
+    },
+    {
+      "at": 1060.8,
+      "heading": 65.0,
+      "sea": "left",
+      "road": "Rue des Aigrettes",
+      "density": "high",
+      "buildings": 42
+    },
+    {
+      "at": 1200.2,
+      "heading": 248.9,
+      "turn": "left",
+      "sea": "both",
+      "road": "Rue de la Passe",
+      "density": "high",
+      "buildings": 11
+    },
+    {
+      "at": 1325.4,
+      "heading": 223.5,
+      "turn": "left",
+      "sea": "left",
+      "road": "Rue de la Passe",
+      "density": "high",
+      "buildings": 10
+    },
+    {
+      "at": 1463.5,
+      "heading": 335.4,
+      "turn": "right",
+      "sea": "right",
+      "road": "Rue de la Passe",
+      "density": "high",
+      "buildings": 42
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Mahébourg",
+      "kind": "poi",
+      "at": 498.0,
+      "side": "left",
+      "lat": -20.405979,
+      "lon": 57.702792
+    },
+    {
+      "name": "Waterfront",
+      "kind": "viewpoint",
+      "at": 1167.1,
+      "side": "left",
+      "lat": -20.404859,
+      "lon": 57.709614
+    },
+    {
+      "name": "Mahébourg Market",
+      "kind": "marketplace",
+      "at": 1328.3,
+      "side": "left",
+      "lat": -20.406702,
+      "lon": 57.708498
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "lion",
+      "name": "Lion Mountain",
+      "elev": 422,
+      "bearing": 27.7,
+      "rel": -37.5,
+      "side": "left",
+      "distKm": 6.4,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "ile_aux_aigrettes",
+      "name": "Île aux Aigrettes",
+      "elev": 12,
+      "bearing": 120.5,
+      "rel": 55.2,
+      "side": "right",
+      "distKm": 3.09,
+      "crater": false,
+      "islet": true
+    }
+  ],
+  "heading0": 72.8,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 29,
+  "polyline_slim": [
+    [
+      -20.4077,
+      57.6998
+    ],
+    [
+      -20.4081,
+      57.6999
+    ],
+    [
+      -20.407817,
+      57.700458
+    ],
+    [
+      -20.40747,
+      57.701247
+    ],
+    [
+      -20.407157,
+      57.701959
+    ],
+    [
+      -20.406905,
+      57.702533
+    ],
+    [
+      -20.406637,
+      57.703144
+    ],
+    [
+      -20.406095,
+      57.702859
+    ],
+    [
+      -20.4061,
+      57.7033
+    ],
+    [
+      -20.406391,
+      57.705152
+    ],
+    [
+      -20.406171,
+      57.705856
+    ],
+    [
+      -20.405917,
+      57.706443
+    ],
+    [
+      -20.405739,
+      57.706855
+    ],
+    [
+      -20.405567,
+      57.707247
+    ],
+    [
+      -20.405314,
+      57.707844
+    ],
+    [
+      -20.405132,
+      57.70826
+    ],
+    [
+      -20.40564,
+      57.708765
+    ],
+    [
+      -20.4059,
+      57.7082
+    ],
+    [
+      -20.4064,
+      57.7084
+    ],
+    [
+      -20.405905,
+      57.708136
+    ],
+    [
+      -20.405314,
+      57.707844
+    ],
+    [
+      -20.404733,
+      57.70756
+    ]
+  ]
+}

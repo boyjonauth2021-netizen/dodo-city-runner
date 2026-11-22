@@ -1,0 +1,153 @@
+{
+  "uid": "mt2",
+  "name": "Grand Baie Beach Road",
+  "blurb": "Grand Baie Road and Route de la Salette along the public beach toward Pointe aux Canonniers.",
+  "routeName": "Grand Baie Road",
+  "lengthM": 622.4,
+  "sea": "both",
+  "roads": [
+    {
+      "name": "Grand Baie Road",
+      "at": 0,
+      "length": 622.4,
+      "highway": "primary"
+    }
+  ],
+  "turns": [
+    {
+      "at": 200.3,
+      "dir": "left",
+      "deg": 55.9,
+      "road": "Grand Baie Road"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 182.2,
+      "sea": "both",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 83.0,
+      "heading": 192.8,
+      "sea": "right",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 200.3,
+      "heading": 136.9,
+      "turn": "left",
+      "sea": "both",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 304.5,
+      "heading": 137.6,
+      "sea": "both",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 434.1,
+      "heading": 137.6,
+      "sea": "both",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 568.8,
+      "heading": 135.7,
+      "sea": "both",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 582.3,
+      "heading": 136.3,
+      "sea": "both",
+      "road": "Grand Baie Road",
+      "density": "low",
+      "buildings": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Grand Baie",
+      "kind": "poi",
+      "at": 275.9,
+      "side": "left",
+      "lat": -20.01844,
+      "lon": 57.579472
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "coin_de_mire",
+      "name": "Coin de Mire / Gunner's Quoin",
+      "elev": 156,
+      "bearing": 27.2,
+      "rel": -108.3,
+      "side": "left",
+      "distKm": 9.65,
+      "crater": false,
+      "islet": true
+    }
+  ],
+  "heading0": 188.2,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 19,
+  "polyline_slim": [
+    [
+      -20.01644,
+      57.578565
+    ],
+    [
+      -20.016875,
+      57.578536
+    ],
+    [
+      -20.017456,
+      57.578409
+    ],
+    [
+      -20.01806,
+      57.578823
+    ],
+    [
+      -20.018368,
+      57.57913
+    ],
+    [
+      -20.018748,
+      57.579498
+    ],
+    [
+      -20.019113,
+      57.579852
+    ],
+    [
+      -20.019608,
+      57.580334
+    ],
+    [
+      -20.02046,
+      57.581247
+    ],
+    [
+      -20.020808,
+      57.581601
+    ]
+  ]
+}

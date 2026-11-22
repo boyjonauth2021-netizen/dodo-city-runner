@@ -1,0 +1,690 @@
+{
+  "uid": "mt6",
+  "name": "Black River Gorges",
+  "blurb": "Plaine Champagne Road through Black River Gorges National Park, past forest viewpoints.",
+  "routeName": "Plaine Champagne Road / Piton de la petite riviere noire trail",
+  "lengthM": 2911.3,
+  "sea": "left",
+  "roads": [
+    {
+      "name": "Plaine Champagne Road",
+      "at": 0,
+      "length": 2320.4,
+      "highway": "unclassified"
+    },
+    {
+      "name": "Piton de la petite riviere noire trail",
+      "at": 2320.5,
+      "length": 590.6,
+      "highway": "path"
+    }
+  ],
+  "turns": [
+    {
+      "at": 115.7,
+      "dir": "right",
+      "deg": 45.8,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 198.7,
+      "dir": "left",
+      "deg": 111.5,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 288.6,
+      "dir": "right",
+      "deg": 26.6,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 552.4,
+      "dir": "left",
+      "deg": 54.4,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 635.5,
+      "dir": "right",
+      "deg": 124.6,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 723.6,
+      "dir": "left",
+      "deg": 30.6,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 897.0,
+      "dir": "right",
+      "deg": 123.0,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 990.0,
+      "dir": "left",
+      "deg": 74.0,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1070.7,
+      "dir": "right",
+      "deg": 20.3,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1164.0,
+      "dir": "left",
+      "deg": 45.3,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1354.1,
+      "dir": "right",
+      "deg": 79.0,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1525.8,
+      "dir": "left",
+      "deg": 144.9,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1641.1,
+      "dir": "left",
+      "deg": 18.5,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1746.0,
+      "dir": "left",
+      "deg": 24.4,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 1991.8,
+      "dir": "right",
+      "deg": 36.6,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 2094.5,
+      "dir": "left",
+      "deg": 26.5,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 2182.8,
+      "dir": "right",
+      "deg": 27.0,
+      "road": "Plaine Champagne Road"
+    },
+    {
+      "at": 2320.5,
+      "dir": "right",
+      "deg": 34.4,
+      "road": "Piton de la petite riviere noire trail"
+    },
+    {
+      "at": 2423.5,
+      "dir": "right",
+      "deg": 42.7,
+      "road": "Piton de la petite riviere noire trail"
+    },
+    {
+      "at": 2537.5,
+      "dir": "right",
+      "deg": 18.5,
+      "road": "Piton de la petite riviere noire trail"
+    },
+    {
+      "at": 2628.2,
+      "dir": "left",
+      "deg": 27.3,
+      "road": "Piton de la petite riviere noire trail"
+    },
+    {
+      "at": 2844.7,
+      "dir": "left",
+      "deg": 34.6,
+      "road": "Piton de la petite riviere noire trail"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 124.8,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 115.7,
+      "heading": 170.6,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 198.7,
+      "heading": 59.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 288.6,
+      "heading": 85.7,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 375.0,
+      "heading": 69.2,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 467.0,
+      "heading": 58.1,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 552.4,
+      "heading": 3.8,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 635.5,
+      "heading": 128.3,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 723.6,
+      "heading": 97.7,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 812.0,
+      "heading": 105.4,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 897.0,
+      "heading": 228.4,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 990.0,
+      "heading": 154.4,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1070.7,
+      "heading": 174.6,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1164.0,
+      "heading": 129.3,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1249.5,
+      "heading": 117.5,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 1354.1,
+      "heading": 196.5,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 1439.7,
+      "heading": 192.0,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1525.8,
+      "heading": 47.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1641.1,
+      "heading": 28.6,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1746.0,
+      "heading": 4.2,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1905.6,
+      "heading": 352.2,
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1991.8,
+      "heading": 28.8,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2094.5,
+      "heading": 2.3,
+      "turn": "left",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2182.8,
+      "heading": 29.3,
+      "turn": "right",
+      "sea": "left",
+      "road": "Plaine Champagne Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2320.5,
+      "heading": 63.6,
+      "turn": "right",
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2423.5,
+      "heading": 106.3,
+      "turn": "right",
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2537.5,
+      "heading": 124.8,
+      "turn": "right",
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2628.2,
+      "heading": 97.4,
+      "turn": "left",
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 2722.1,
+      "heading": 110.2,
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 2844.7,
+      "heading": 75.7,
+      "turn": "left",
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2896.6,
+      "heading": 91.5,
+      "sea": "left",
+      "road": "Piton de la petite riviere noire trail",
+      "density": "low",
+      "buildings": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Plaine Champagne",
+      "kind": "poi",
+      "at": 94.6,
+      "side": "right",
+      "lat": -20.424696,
+      "lon": 57.417499
+    },
+    {
+      "name": "Alexandra Falls",
+      "kind": "parking",
+      "at": 2731.1,
+      "side": "left",
+      "lat": -20.42457,
+      "lon": 57.429773
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "piton_noir",
+      "name": "Piton de la Petite Rivière Noire",
+      "elev": 828,
+      "bearing": 228.1,
+      "rel": 40.9,
+      "side": "right",
+      "distKm": 2.14,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 154.4,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 150,
+  "polyline_slim": [
+    [
+      -20.424,
+      57.4173
+    ],
+    [
+      -20.424248,
+      57.417609
+    ],
+    [
+      -20.424858,
+      57.417859
+    ],
+    [
+      -20.425214,
+      57.417921
+    ],
+    [
+      -20.425404,
+      57.418151
+    ],
+    [
+      -20.42515,
+      57.418464
+    ],
+    [
+      -20.425241,
+      57.418888
+    ],
+    [
+      -20.424931,
+      57.419132
+    ],
+    [
+      -20.424642,
+      57.419356
+    ],
+    [
+      -20.424711,
+      57.419721
+    ],
+    [
+      -20.424494,
+      57.420072
+    ],
+    [
+      -20.424553,
+      57.420579
+    ],
+    [
+      -20.42425,
+      57.420748
+    ],
+    [
+      -20.424141,
+      57.421236
+    ],
+    [
+      -20.424429,
+      57.421437
+    ],
+    [
+      -20.424586,
+      57.421755
+    ],
+    [
+      -20.424874,
+      57.421884
+    ],
+    [
+      -20.425222,
+      57.421821
+    ],
+    [
+      -20.425293,
+      57.422302
+    ],
+    [
+      -20.425625,
+      57.422151
+    ],
+    [
+      -20.426026,
+      57.422487
+    ],
+    [
+      -20.426379,
+      57.422727
+    ],
+    [
+      -20.426557,
+      57.423113
+    ],
+    [
+      -20.426937,
+      57.423358
+    ],
+    [
+      -20.427284,
+      57.423317
+    ],
+    [
+      -20.427563,
+      57.423714
+    ],
+    [
+      -20.42779,
+      57.424093
+    ],
+    [
+      -20.428229,
+      57.424325
+    ],
+    [
+      -20.42882,
+      57.42419
+    ],
+    [
+      -20.429158,
+      57.42392
+    ],
+    [
+      -20.429503,
+      57.423717
+    ],
+    [
+      -20.429623,
+      57.423747
+    ],
+    [
+      -20.429474,
+      57.42416
+    ],
+    [
+      -20.42907,
+      57.424646
+    ],
+    [
+      -20.428728,
+      57.42476
+    ],
+    [
+      -20.428166,
+      57.424917
+    ],
+    [
+      -20.427612,
+      57.424915
+    ],
+    [
+      -20.426753,
+      57.424728
+    ],
+    [
+      -20.426389,
+      57.424776
+    ],
+    [
+      -20.426088,
+      57.425038
+    ],
+    [
+      -20.425504,
+      57.425268
+    ],
+    [
+      -20.424784,
+      57.425351
+    ],
+    [
+      -20.42442,
+      57.425344
+    ],
+    [
+      -20.42347,
+      57.426186
+    ],
+    [
+      -20.423388,
+      57.426622
+    ],
+    [
+      -20.423491,
+      57.427139
+    ],
+    [
+      -20.423596,
+      57.427524
+    ],
+    [
+      -20.423844,
+      57.428159
+    ],
+    [
+      -20.424162,
+      57.428568
+    ],
+    [
+      -20.424378,
+      57.429065
+    ],
+    [
+      -20.424503,
+      57.429511
+    ],
+    [
+      -20.424644,
+      57.429927
+    ],
+    [
+      -20.424732,
+      57.430405
+    ],
+    [
+      -20.424715,
+      57.430851
+    ],
+    [
+      -20.42462,
+      57.431337
+    ],
+    [
+      -20.424623,
+      57.431477
+    ]
+  ]
+}

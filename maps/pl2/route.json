@@ -1,0 +1,3544 @@
+{
+  "uid": "pl2",
+  "name": "Metro Express Rush",
+  "blurb": "Metro Express main line southbound: Place d’Armes and Port Louis Victoria to Curepipe Central, stopping at every station in official order.",
+  "routeName": "Metro Express (main line, southbound)",
+  "lengthM": 25559.5,
+  "sea": null,
+  "roads": [
+    {
+      "name": "Metro Express (main line, southbound)",
+      "at": 0,
+      "length": 25559.5,
+      "highway": "light_rail"
+    }
+  ],
+  "turns": [
+    {
+      "at": 82.8,
+      "dir": "right",
+      "deg": 176.4,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 1004.1,
+      "dir": "left",
+      "deg": 18.8,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 1371.6,
+      "dir": "right",
+      "deg": 18.1,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 1477.8,
+      "dir": "right",
+      "deg": 19.0,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 9498.2,
+      "dir": "left",
+      "deg": 27.2,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 15172.6,
+      "dir": "left",
+      "deg": 25.4,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 15324.9,
+      "dir": "left",
+      "deg": 77.5,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 16425.0,
+      "dir": "right",
+      "deg": 29.5,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 16505.1,
+      "dir": "right",
+      "deg": 30.0,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 16588.0,
+      "dir": "right",
+      "deg": 26.4,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 25410.5,
+      "dir": "right",
+      "deg": 27.6,
+      "road": "Metro Express (main line, southbound)"
+    },
+    {
+      "at": 25543.4,
+      "dir": "left",
+      "deg": 35.3,
+      "road": "Metro Express (main line, southbound)"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 46.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 82.8,
+      "heading": 222.5,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 170.3,
+      "heading": 231.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 252.8,
+      "heading": 239.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 339.3,
+      "heading": 247.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 438.5,
+      "heading": 251.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 541.2,
+      "heading": 251.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 643.2,
+      "heading": 253.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 733.0,
+      "heading": 268.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 819.0,
+      "heading": 252.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 906.6,
+      "heading": 237.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1004.1,
+      "heading": 218.2,
+      "turn": "left",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1115.1,
+      "heading": 207.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1275.8,
+      "heading": 210.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1371.6,
+      "heading": 228.2,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1477.8,
+      "heading": 247.2,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1566.1,
+      "heading": 239.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1660.3,
+      "heading": 231.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1762.9,
+      "heading": 226.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1882.7,
+      "heading": 213.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 1979.1,
+      "heading": 206.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2083.5,
+      "heading": 199.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2186.1,
+      "heading": 195.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2284.4,
+      "heading": 194.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2402.8,
+      "heading": 196.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2494.1,
+      "heading": 210.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2599.8,
+      "heading": 227.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2682.1,
+      "heading": 238.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2772.1,
+      "heading": 244.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2864.0,
+      "heading": 242.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 2960.2,
+      "heading": 234.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3059.8,
+      "heading": 233.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3192.7,
+      "heading": 232.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3294.2,
+      "heading": 222.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3384.3,
+      "heading": 226.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3480.5,
+      "heading": 232.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3569.0,
+      "heading": 244.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3667.0,
+      "heading": 243.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3777.4,
+      "heading": 240.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3858.2,
+      "heading": 244.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 3966.5,
+      "heading": 249.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4238.3,
+      "heading": 249.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4361.8,
+      "heading": 252.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4472.0,
+      "heading": 253.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4552.1,
+      "heading": 246.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4657.4,
+      "heading": 234.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4746.9,
+      "heading": 223.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4829.4,
+      "heading": 215.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 4916.0,
+      "heading": 217.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5001.8,
+      "heading": 228.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5096.7,
+      "heading": 220.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5189.8,
+      "heading": 209.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5288.2,
+      "heading": 196.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5379.4,
+      "heading": 186.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5475.6,
+      "heading": 193.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5568.7,
+      "heading": 203.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5658.7,
+      "heading": 214.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5742.9,
+      "heading": 221.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5825.7,
+      "heading": 215.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 5913.1,
+      "heading": 213.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6021.0,
+      "heading": 207.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6149.6,
+      "heading": 203.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6333.6,
+      "heading": 209.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6417.1,
+      "heading": 216.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6522.0,
+      "heading": 225.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6620.8,
+      "heading": 234.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6718.3,
+      "heading": 233.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6803.0,
+      "heading": 227.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6885.5,
+      "heading": 218.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 6970.8,
+      "heading": 215.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7088.0,
+      "heading": 207.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7194.8,
+      "heading": 199.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7310.6,
+      "heading": 190.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7408.7,
+      "heading": 184.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7608.6,
+      "heading": 184.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7751.7,
+      "heading": 183.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7855.1,
+      "heading": 180.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 7968.0,
+      "heading": 177.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8069.6,
+      "heading": 173.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8184.2,
+      "heading": 170.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8301.4,
+      "heading": 166.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8426.5,
+      "heading": 162.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8515.8,
+      "heading": 158.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8606.2,
+      "heading": 157.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8690.9,
+      "heading": 154.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8791.2,
+      "heading": 151.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8902.0,
+      "heading": 149.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 8987.2,
+      "heading": 148.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9106.8,
+      "heading": 148.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9237.2,
+      "heading": 148.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9323.8,
+      "heading": 149.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9404.6,
+      "heading": 144.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9498.2,
+      "heading": 116.9,
+      "turn": "left",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9580.1,
+      "heading": 112.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9697.5,
+      "heading": 115.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9789.4,
+      "heading": 115.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9871.2,
+      "heading": 117.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 9964.0,
+      "heading": 114.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10049.4,
+      "heading": 116.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10143.0,
+      "heading": 120.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10234.4,
+      "heading": 127.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10318.4,
+      "heading": 135.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10420.0,
+      "heading": 144.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10504.8,
+      "heading": 143.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10588.1,
+      "heading": 153.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10668.6,
+      "heading": 154.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10774.4,
+      "heading": 147.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10870.9,
+      "heading": 137.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 10955.8,
+      "heading": 136.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11058.5,
+      "heading": 141.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11146.3,
+      "heading": 149.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11252.0,
+      "heading": 159.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11386.9,
+      "heading": 159.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11467.9,
+      "heading": 150.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11562.0,
+      "heading": 140.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11645.6,
+      "heading": 143.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11731.2,
+      "heading": 137.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11845.4,
+      "heading": 142.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 11931.4,
+      "heading": 145.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12034.8,
+      "heading": 156.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12124.9,
+      "heading": 163.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12208.8,
+      "heading": 170.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12307.4,
+      "heading": 182.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12404.7,
+      "heading": 184.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12525.6,
+      "heading": 179.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12637.7,
+      "heading": 179.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12757.7,
+      "heading": 180.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12870.7,
+      "heading": 181.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 12977.5,
+      "heading": 180.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13120.6,
+      "heading": 180.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13217.3,
+      "heading": 169.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13321.4,
+      "heading": 165.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13427.3,
+      "heading": 159.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13537.3,
+      "heading": 153.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13648.0,
+      "heading": 157.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13730.4,
+      "heading": 164.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13814.3,
+      "heading": 173.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13904.3,
+      "heading": 182.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 13985.9,
+      "heading": 183.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14084.3,
+      "heading": 194.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14172.6,
+      "heading": 197.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14266.8,
+      "heading": 193.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14359.6,
+      "heading": 189.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14492.3,
+      "heading": 183.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14595.4,
+      "heading": 178.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14712.1,
+      "heading": 170.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14799.2,
+      "heading": 164.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14905.0,
+      "heading": 158.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 14996.7,
+      "heading": 153.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15085.8,
+      "heading": 140.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15172.6,
+      "heading": 115.2,
+      "turn": "left",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15324.9,
+      "heading": 37.8,
+      "turn": "left",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15437.8,
+      "heading": 37.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15606.8,
+      "heading": 38.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15716.0,
+      "heading": 38.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 15946.2,
+      "heading": 38.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16088.9,
+      "heading": 39.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16183.7,
+      "heading": 44.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16343.8,
+      "heading": 61.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16425.0,
+      "heading": 90.9,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16505.1,
+      "heading": 120.9,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16588.0,
+      "heading": 147.3,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16715.0,
+      "heading": 149.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 16918.4,
+      "heading": 150.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17066.8,
+      "heading": 150.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17190.3,
+      "heading": 150.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17322.2,
+      "heading": 151.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17403.8,
+      "heading": 150.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17500.7,
+      "heading": 150.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17631.5,
+      "heading": 146.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17742.2,
+      "heading": 152.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17892.3,
+      "heading": 151.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 17973.8,
+      "heading": 152.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18079.4,
+      "heading": 152.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18268.6,
+      "heading": 152.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18362.5,
+      "heading": 157.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18446.4,
+      "heading": 171.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18534.1,
+      "heading": 188.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18639.8,
+      "heading": 190.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18749.3,
+      "heading": 186.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18880.5,
+      "heading": 181.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 18989.5,
+      "heading": 168.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19084.3,
+      "heading": 156.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19173.2,
+      "heading": 152.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19255.8,
+      "heading": 156.7,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19354.6,
+      "heading": 164.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19448.8,
+      "heading": 174.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19545.0,
+      "heading": 183.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19642.5,
+      "heading": 193.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19731.6,
+      "heading": 195.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19822.7,
+      "heading": 205.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 19951.6,
+      "heading": 205.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20086.2,
+      "heading": 205.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20167.6,
+      "heading": 205.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20322.0,
+      "heading": 205.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20409.0,
+      "heading": 205.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20489.5,
+      "heading": 204.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20577.2,
+      "heading": 198.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20708.7,
+      "heading": 196.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20813.0,
+      "heading": 189.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 20906.9,
+      "heading": 183.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21017.8,
+      "heading": 181.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21117.2,
+      "heading": 178.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21209.1,
+      "heading": 171.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21292.0,
+      "heading": 167.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21389.8,
+      "heading": 160.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21491.1,
+      "heading": 156.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21601.7,
+      "heading": 150.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21689.2,
+      "heading": 144.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21775.9,
+      "heading": 142.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21863.4,
+      "heading": 143.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 21948.3,
+      "heading": 144.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22084.0,
+      "heading": 142.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22195.8,
+      "heading": 139.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22292.8,
+      "heading": 128.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22417.4,
+      "heading": 120.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22528.9,
+      "heading": 109.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22631.4,
+      "heading": 100.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22713.0,
+      "heading": 99.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 22839.5,
+      "heading": 99.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23040.9,
+      "heading": 100.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23121.1,
+      "heading": 100.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23240.0,
+      "heading": 100.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23330.5,
+      "heading": 88.5,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23487.9,
+      "heading": 83.2,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23576.0,
+      "heading": 87.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23689.9,
+      "heading": 100.8,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23773.0,
+      "heading": 110.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 23954.2,
+      "heading": 115.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24075.1,
+      "heading": 115.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24234.1,
+      "heading": 115.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24323.2,
+      "heading": 117.1,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24434.0,
+      "heading": 120.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24619.6,
+      "heading": 123.0,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24744.5,
+      "heading": 127.9,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24852.8,
+      "heading": 126.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 24956.2,
+      "heading": 130.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 25041.6,
+      "heading": 133.6,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 25204.6,
+      "heading": 137.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 25328.6,
+      "heading": 137.3,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 25410.5,
+      "heading": 164.9,
+      "turn": "right",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 25543.4,
+      "heading": 129.6,
+      "turn": "left",
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    },
+    {
+      "at": 25554.5,
+      "heading": 129.4,
+      "road": "Metro Express (main line, southbound)",
+      "density": "medium"
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Place d'Armes",
+      "kind": "station",
+      "at": 0.0,
+      "side": "right",
+      "lat": -20.1612562,
+      "lon": 57.5007003
+    },
+    {
+      "name": "Port Louis Victoria",
+      "kind": "station",
+      "at": 462.4,
+      "side": "right",
+      "lat": -20.1625914,
+      "lon": 57.4979793
+    },
+    {
+      "name": "St Louis",
+      "kind": "station",
+      "at": 3643.3,
+      "side": "right",
+      "lat": -20.1809333,
+      "lon": 57.4767721
+    },
+    {
+      "name": "Coromandel",
+      "kind": "station",
+      "at": 4449.7,
+      "side": "right",
+      "lat": -20.183681,
+      "lon": 57.469648
+    },
+    {
+      "name": "Barkly",
+      "kind": "station",
+      "at": 9300.5,
+      "side": "right",
+      "lat": -20.2208296,
+      "lon": 57.4583953
+    },
+    {
+      "name": "Beau Bassin",
+      "kind": "station",
+      "at": 10471.4,
+      "side": "right",
+      "lat": -20.2267034,
+      "lon": 57.4673856
+    },
+    {
+      "name": "Vandermeersch",
+      "kind": "station",
+      "at": 11621.8,
+      "side": "right",
+      "lat": -20.2354339,
+      "lon": 57.4730815
+    },
+    {
+      "name": "Rose Hill Central",
+      "kind": "station",
+      "at": 12435.6,
+      "side": "right",
+      "lat": -20.2418518,
+      "lon": 57.4759291
+    },
+    {
+      "name": "Belle Rose",
+      "kind": "station",
+      "at": 14008.9,
+      "side": "right",
+      "lat": -20.2556815,
+      "lon": 57.4777462
+    },
+    {
+      "name": "Quatre Bornes Central",
+      "kind": "station",
+      "at": 15110.3,
+      "side": "right",
+      "lat": -20.2651247,
+      "lon": 57.4783272
+    },
+    {
+      "name": "St. Jean",
+      "kind": "station",
+      "at": 15757.3,
+      "side": "right",
+      "lat": -20.2618123,
+      "lon": 57.4824355
+    },
+    {
+      "name": "Trianon",
+      "kind": "station",
+      "at": 16942.9,
+      "side": "right",
+      "lat": -20.261202,
+      "lon": 57.489885
+    },
+    {
+      "name": "Phoenix",
+      "kind": "station",
+      "at": 18653.4,
+      "side": "right",
+      "lat": -20.2749591,
+      "lon": 57.4965315
+    },
+    {
+      "name": "Phoenix Mall",
+      "kind": "station",
+      "at": 19207.1,
+      "side": "right",
+      "lat": -20.2797192,
+      "lon": 57.4971178
+    },
+    {
+      "name": "Palmerstone",
+      "kind": "station",
+      "at": 19846.0,
+      "side": "right",
+      "lat": -20.2852719,
+      "lon": 57.4971762
+    },
+    {
+      "name": "Vacoas Central",
+      "kind": "station",
+      "at": 20995.3,
+      "side": "right",
+      "lat": -20.294872,
+      "lon": 57.4933909
+    },
+    {
+      "name": "Sadally",
+      "kind": "station",
+      "at": 21886.4,
+      "side": "right",
+      "lat": -20.3022192,
+      "lon": 57.4961619
+    },
+    {
+      "name": "Floreal",
+      "kind": "station",
+      "at": 23216.1,
+      "side": "right",
+      "lat": -20.307394,
+      "lon": 57.5070301
+    },
+    {
+      "name": "Curepipe North",
+      "kind": "station",
+      "at": 24799.9,
+      "side": "right",
+      "lat": -20.3118262,
+      "lon": 57.5209353
+    },
+    {
+      "name": "Curepipe Central",
+      "kind": "station",
+      "at": 25513.7,
+      "side": "right",
+      "lat": -20.316407,
+      "lon": 57.525649
+    }
+  ],
+  "stations": [
+    {
+      "name": "Place d'Armes",
+      "kind": "station",
+      "at": 0.0,
+      "side": "right",
+      "lat": -20.1612562,
+      "lon": 57.5007003
+    },
+    {
+      "name": "Port Louis Victoria",
+      "kind": "station",
+      "at": 462.4,
+      "side": "right",
+      "lat": -20.1625914,
+      "lon": 57.4979793
+    },
+    {
+      "name": "St Louis",
+      "kind": "station",
+      "at": 3643.3,
+      "side": "right",
+      "lat": -20.1809333,
+      "lon": 57.4767721
+    },
+    {
+      "name": "Coromandel",
+      "kind": "station",
+      "at": 4449.7,
+      "side": "right",
+      "lat": -20.183681,
+      "lon": 57.469648
+    },
+    {
+      "name": "Barkly",
+      "kind": "station",
+      "at": 9300.5,
+      "side": "right",
+      "lat": -20.2208296,
+      "lon": 57.4583953
+    },
+    {
+      "name": "Beau Bassin",
+      "kind": "station",
+      "at": 10471.4,
+      "side": "right",
+      "lat": -20.2267034,
+      "lon": 57.4673856
+    },
+    {
+      "name": "Vandermeersch",
+      "kind": "station",
+      "at": 11621.8,
+      "side": "right",
+      "lat": -20.2354339,
+      "lon": 57.4730815
+    },
+    {
+      "name": "Rose Hill Central",
+      "kind": "station",
+      "at": 12435.6,
+      "side": "right",
+      "lat": -20.2418518,
+      "lon": 57.4759291
+    },
+    {
+      "name": "Belle Rose",
+      "kind": "station",
+      "at": 14008.9,
+      "side": "right",
+      "lat": -20.2556815,
+      "lon": 57.4777462
+    },
+    {
+      "name": "Quatre Bornes Central",
+      "kind": "station",
+      "at": 15110.3,
+      "side": "right",
+      "lat": -20.2651247,
+      "lon": 57.4783272
+    },
+    {
+      "name": "St. Jean",
+      "kind": "station",
+      "at": 15757.3,
+      "side": "right",
+      "lat": -20.2618123,
+      "lon": 57.4824355
+    },
+    {
+      "name": "Trianon",
+      "kind": "station",
+      "at": 16942.9,
+      "side": "right",
+      "lat": -20.261202,
+      "lon": 57.489885
+    },
+    {
+      "name": "Phoenix",
+      "kind": "station",
+      "at": 18653.4,
+      "side": "right",
+      "lat": -20.2749591,
+      "lon": 57.4965315
+    },
+    {
+      "name": "Phoenix Mall",
+      "kind": "station",
+      "at": 19207.1,
+      "side": "right",
+      "lat": -20.2797192,
+      "lon": 57.4971178
+    },
+    {
+      "name": "Palmerstone",
+      "kind": "station",
+      "at": 19846.0,
+      "side": "right",
+      "lat": -20.2852719,
+      "lon": 57.4971762
+    },
+    {
+      "name": "Vacoas Central",
+      "kind": "station",
+      "at": 20995.3,
+      "side": "right",
+      "lat": -20.294872,
+      "lon": 57.4933909
+    },
+    {
+      "name": "Sadally",
+      "kind": "station",
+      "at": 21886.4,
+      "side": "right",
+      "lat": -20.3022192,
+      "lon": 57.4961619
+    },
+    {
+      "name": "Floreal",
+      "kind": "station",
+      "at": 23216.1,
+      "side": "right",
+      "lat": -20.307394,
+      "lon": 57.5070301
+    },
+    {
+      "name": "Curepipe North",
+      "kind": "station",
+      "at": 24799.9,
+      "side": "right",
+      "lat": -20.3118262,
+      "lon": 57.5209353
+    },
+    {
+      "name": "Curepipe Central",
+      "kind": "station",
+      "at": 25513.7,
+      "side": "right",
+      "lat": -20.316407,
+      "lon": 57.525649
+    }
+  ],
+  "mountains": [
+    {
+      "id": "le_pouce",
+      "name": "Le Pouce",
+      "elev": 812,
+      "bearing": 52.0,
+      "rel": -90.9,
+      "side": "left",
+      "distKm": 7.01,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "pieter_both",
+      "name": "Pieter Both",
+      "elev": 820,
+      "bearing": 70.7,
+      "rel": -72.2,
+      "side": "left",
+      "distKm": 5.94,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "signal",
+      "name": "Signal Mountain",
+      "elev": 323,
+      "bearing": 13.0,
+      "rel": -129.8,
+      "side": "left",
+      "distKm": 7.13,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "corps_de_garde",
+      "name": "Corps de Garde",
+      "elev": 720,
+      "bearing": 208.0,
+      "rel": 65.1,
+      "side": "right",
+      "distKm": 4.15,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "ory",
+      "name": "Montagne Ory",
+      "elev": 500,
+      "bearing": 46.4,
+      "rel": -96.4,
+      "side": "left",
+      "distKm": 3.08,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "trou_aux_cerfs",
+      "name": "Trou aux Cerfs",
+      "elev": 605,
+      "bearing": 155.2,
+      "rel": 12.4,
+      "side": "ahead",
+      "distKm": 9.8,
+      "crater": true,
+      "islet": false
+    }
+  ],
+  "heading0": 215.8,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 667,
+  "polyline_slim": [
+    [
+      -20.161256,
+      57.5007
+    ],
+    [
+      -20.160812,
+      57.501192
+    ],
+    [
+      -20.161128,
+      57.500878
+    ],
+    [
+      -20.16144,
+      57.500521
+    ],
+    [
+      -20.161753,
+      57.500074
+    ],
+    [
+      -20.16197,
+      57.499709
+    ],
+    [
+      -20.162232,
+      57.499148
+    ],
+    [
+      -20.162442,
+      57.498579
+    ],
+    [
+      -20.162677,
+      57.497825
+    ],
+    [
+      -20.162831,
+      57.497325
+    ],
+    [
+      -20.163053,
+      57.496606
+    ],
+    [
+      -20.163176,
+      57.496181
+    ],
+    [
+      -20.163238,
+      57.495759
+    ],
+    [
+      -20.163256,
+      57.495349
+    ],
+    [
+      -20.163318,
+      57.494913
+    ],
+    [
+      -20.163467,
+      57.494391
+    ],
+    [
+      -20.163659,
+      57.493969
+    ],
+    [
+      -20.163915,
+      57.493567
+    ],
+    [
+      -20.164207,
+      57.493246
+    ],
+    [
+      -20.164496,
+      57.493013
+    ],
+    [
+      -20.165042,
+      57.492672
+    ],
+    [
+      -20.165414,
+      57.492469
+    ],
+    [
+      -20.16633,
+      57.491975
+    ],
+    [
+      -20.166693,
+      57.491735
+    ],
+    [
+      -20.167023,
+      57.491437
+    ],
+    [
+      -20.167313,
+      57.490982
+    ],
+    [
+      -20.16747,
+      57.490551
+    ],
+    [
+      -20.167687,
+      57.49002
+    ],
+    [
+      -20.167965,
+      57.489492
+    ],
+    [
+      -20.168263,
+      57.489028
+    ],
+    [
+      -20.168546,
+      57.488646
+    ],
+    [
+      -20.168859,
+      57.48828
+    ],
+    [
+      -20.169355,
+      57.487783
+    ],
+    [
+      -20.169668,
+      57.487527
+    ],
+    [
+      -20.170176,
+      57.48718
+    ],
+    [
+      -20.170677,
+      57.486897
+    ],
+    [
+      -20.171261,
+      57.486639
+    ],
+    [
+      -20.171867,
+      57.486436
+    ],
+    [
+      -20.172564,
+      57.486231
+    ],
+    [
+      -20.172997,
+      57.486114
+    ],
+    [
+      -20.173381,
+      57.486007
+    ],
+    [
+      -20.17403,
+      57.485843
+    ],
+    [
+      -20.174578,
+      57.485643
+    ],
+    [
+      -20.17502,
+      57.485391
+    ],
+    [
+      -20.175379,
+      57.485107
+    ],
+    [
+      -20.175717,
+      57.484743
+    ],
+    [
+      -20.176016,
+      57.484318
+    ],
+    [
+      -20.176406,
+      57.483564
+    ],
+    [
+      -20.176606,
+      57.483128
+    ],
+    [
+      -20.176764,
+      57.482772
+    ],
+    [
+      -20.177052,
+      57.482224
+    ],
+    [
+      -20.177721,
+      57.481202
+    ],
+    [
+      -20.178429,
+      57.480178
+    ],
+    [
+      -20.178705,
+      57.479812
+    ],
+    [
+      -20.179032,
+      57.47945
+    ],
+    [
+      -20.179423,
+      57.47907
+    ],
+    [
+      -20.179792,
+      57.478688
+    ],
+    [
+      -20.180201,
+      57.47818
+    ],
+    [
+      -20.180514,
+      57.477713
+    ],
+    [
+      -20.180835,
+      57.477037
+    ],
+    [
+      -20.181023,
+      57.476631
+    ],
+    [
+      -20.181197,
+      57.476267
+    ],
+    [
+      -20.181481,
+      57.475694
+    ],
+    [
+      -20.181825,
+      57.475013
+    ],
+    [
+      -20.181993,
+      57.474646
+    ],
+    [
+      -20.18224,
+      57.474075
+    ],
+    [
+      -20.183077,
+      57.471632
+    ],
+    [
+      -20.183264,
+      57.471101
+    ],
+    [
+      -20.183449,
+      57.470518
+    ],
+    [
+      -20.183628,
+      57.469919
+    ],
+    [
+      -20.183742,
+      57.469511
+    ],
+    [
+      -20.183882,
+      57.469023
+    ],
+    [
+      -20.18406,
+      57.46855
+    ],
+    [
+      -20.184272,
+      57.468139
+    ],
+    [
+      -20.184583,
+      57.467655
+    ],
+    [
+      -20.184927,
+      57.467239
+    ],
+    [
+      -20.185275,
+      57.466913
+    ],
+    [
+      -20.185746,
+      57.466549
+    ],
+    [
+      -20.186139,
+      57.466267
+    ],
+    [
+      -20.186503,
+      57.465942
+    ],
+    [
+      -20.186899,
+      57.465488
+    ],
+    [
+      -20.187291,
+      57.465054
+    ],
+    [
+      -20.187746,
+      57.464662
+    ],
+    [
+      -20.188241,
+      57.46434
+    ],
+    [
+      -20.188755,
+      57.464115
+    ],
+    [
+      -20.189186,
+      57.463993
+    ],
+    [
+      -20.189552,
+      57.463922
+    ],
+    [
+      -20.189948,
+      57.463876
+    ],
+    [
+      -20.190409,
+      57.4638
+    ],
+    [
+      -20.190879,
+      57.463666
+    ],
+    [
+      -20.191535,
+      57.463382
+    ],
+    [
+      -20.191921,
+      57.463138
+    ],
+    [
+      -20.192227,
+      57.462912
+    ],
+    [
+      -20.192521,
+      57.462648
+    ],
+    [
+      -20.192808,
+      57.462377
+    ],
+    [
+      -20.193088,
+      57.462136
+    ],
+    [
+      -20.19356,
+      57.461774
+    ],
+    [
+      -20.194321,
+      57.461245
+    ],
+    [
+      -20.195096,
+      57.460791
+    ],
+    [
+      -20.195581,
+      57.460548
+    ],
+    [
+      -20.195914,
+      57.460393
+    ],
+    [
+      -20.197072,
+      57.45979
+    ],
+    [
+      -20.197396,
+      57.459594
+    ],
+    [
+      -20.197713,
+      57.459376
+    ],
+    [
+      -20.198105,
+      57.459062
+    ],
+    [
+      -20.198442,
+      57.458741
+    ],
+    [
+      -20.198725,
+      57.458431
+    ],
+    [
+      -20.199022,
+      57.458027
+    ],
+    [
+      -20.19926,
+      57.457669
+    ],
+    [
+      -20.199536,
+      57.457271
+    ],
+    [
+      -20.199766,
+      57.456942
+    ],
+    [
+      -20.200014,
+      57.456641
+    ],
+    [
+      -20.200533,
+      57.456077
+    ],
+    [
+      -20.201139,
+      57.455579
+    ],
+    [
+      -20.201712,
+      57.455168
+    ],
+    [
+      -20.202024,
+      57.454972
+    ],
+    [
+      -20.202638,
+      57.454653
+    ],
+    [
+      -20.203178,
+      57.454434
+    ],
+    [
+      -20.203542,
+      57.454319
+    ],
+    [
+      -20.204176,
+      57.454169
+    ],
+    [
+      -20.20476,
+      57.454085
+    ],
+    [
+      -20.205391,
+      57.454034
+    ],
+    [
+      -20.206552,
+      57.45395
+    ],
+    [
+      -20.207182,
+      57.453899
+    ],
+    [
+      -20.207834,
+      57.45385
+    ],
+    [
+      -20.208277,
+      57.453819
+    ],
+    [
+      -20.208762,
+      57.453797
+    ],
+    [
+      -20.209226,
+      57.453793
+    ],
+    [
+      -20.209776,
+      57.453807
+    ],
+    [
+      -20.210136,
+      57.453827
+    ],
+    [
+      -20.210686,
+      57.453872
+    ],
+    [
+      -20.21123,
+      57.453938
+    ],
+    [
+      -20.211708,
+      57.454008
+    ],
+    [
+      -20.212124,
+      57.454085
+    ],
+    [
+      -20.212739,
+      57.45423
+    ],
+    [
+      -20.213421,
+      57.454407
+    ],
+    [
+      -20.213825,
+      57.454536
+    ],
+    [
+      -20.21424,
+      57.454674
+    ],
+    [
+      -20.214591,
+      57.454791
+    ],
+    [
+      -20.214962,
+      57.454946
+    ],
+    [
+      -20.215345,
+      57.455113
+    ],
+    [
+      -20.216042,
+      57.455437
+    ],
+    [
+      -20.216411,
+      57.455628
+    ],
+    [
+      -20.216847,
+      57.455869
+    ],
+    [
+      -20.217711,
+      57.456394
+    ],
+    [
+      -20.218064,
+      57.456616
+    ],
+    [
+      -20.218775,
+      57.457085
+    ],
+    [
+      -20.219276,
+      57.457424
+    ],
+    [
+      -20.220278,
+      57.458071
+    ],
+    [
+      -20.220585,
+      57.458272
+    ],
+    [
+      -20.220946,
+      57.458497
+    ],
+    [
+      -20.221399,
+      57.458799
+    ],
+    [
+      -20.221713,
+      57.459025
+    ],
+    [
+      -20.222061,
+      57.459407
+    ],
+    [
+      -20.222295,
+      57.459873
+    ],
+    [
+      -20.222446,
+      57.460256
+    ],
+    [
+      -20.222701,
+      57.460875
+    ],
+    [
+      -20.222878,
+      57.461282
+    ],
+    [
+      -20.223094,
+      57.461759
+    ],
+    [
+      -20.223396,
+      57.462438
+    ],
+    [
+      -20.223749,
+      57.463178
+    ],
+    [
+      -20.223927,
+      57.463575
+    ],
+    [
+      -20.224143,
+      57.46408
+    ],
+    [
+      -20.224326,
+      57.464483
+    ],
+    [
+      -20.224545,
+      57.464908
+    ],
+    [
+      -20.22476,
+      57.465297
+    ],
+    [
+      -20.225106,
+      57.465831
+    ],
+    [
+      -20.225456,
+      57.4663
+    ],
+    [
+      -20.225729,
+      57.466597
+    ],
+    [
+      -20.22628,
+      57.467081
+    ],
+    [
+      -20.226829,
+      57.467499
+    ],
+    [
+      -20.227208,
+      57.467803
+    ],
+    [
+      -20.227508,
+      57.468016
+    ],
+    [
+      -20.227918,
+      57.468233
+    ],
+    [
+      -20.228403,
+      57.468477
+    ],
+    [
+      -20.228762,
+      57.468669
+    ],
+    [
+      -20.229239,
+      57.468975
+    ],
+    [
+      -20.229704,
+      57.469358
+    ],
+    [
+      -20.230259,
+      57.469916
+    ],
+    [
+      -20.230692,
+      57.470353
+    ],
+    [
+      -20.231091,
+      57.470704
+    ],
+    [
+      -20.231398,
+      57.470941
+    ],
+    [
+      -20.231783,
+      57.471183
+    ],
+    [
+      -20.232218,
+      57.471415
+    ],
+    [
+      -20.232699,
+      57.471606
+    ],
+    [
+      -20.233583,
+      57.471923
+    ],
+    [
+      -20.233984,
+      57.472097
+    ],
+    [
+      -20.23437,
+      57.472305
+    ],
+    [
+      -20.234725,
+      57.472545
+    ],
+    [
+      -20.235083,
+      57.472831
+    ],
+    [
+      -20.23554,
+      57.473228
+    ],
+    [
+      -20.236003,
+      57.473626
+    ],
+    [
+      -20.236421,
+      57.474027
+    ],
+    [
+      -20.236895,
+      57.47448
+    ],
+    [
+      -20.237419,
+      57.474904
+    ],
+    [
+      -20.237803,
+      57.475175
+    ],
+    [
+      -20.238319,
+      57.475465
+    ],
+    [
+      -20.238656,
+      57.47562
+    ],
+    [
+      -20.23907,
+      57.475787
+    ],
+    [
+      -20.239537,
+      57.475919
+    ],
+    [
+      -20.240049,
+      57.476025
+    ],
+    [
+      -20.240485,
+      57.47606
+    ],
+    [
+      -20.240882,
+      57.476055
+    ],
+    [
+      -20.241293,
+      57.47602
+    ],
+    [
+      -20.242108,
+      57.475945
+    ],
+    [
+      -20.242636,
+      57.475904
+    ],
+    [
+      -20.243263,
+      57.475914
+    ],
+    [
+      -20.243643,
+      57.475915
+    ],
+    [
+      -20.244024,
+      57.475915
+    ],
+    [
+      -20.244721,
+      57.475916
+    ],
+    [
+      -20.245227,
+      57.475912
+    ],
+    [
+      -20.245735,
+      57.475893
+    ],
+    [
+      -20.246353,
+      57.475875
+    ],
+    [
+      -20.24798,
+      57.475848
+    ],
+    [
+      -20.2484,
+      57.475859
+    ],
+    [
+      -20.248845,
+      57.475913
+    ],
+    [
+      -20.249477,
+      57.476045
+    ],
+    [
+      -20.25011,
+      57.476219
+    ],
+    [
+      -20.25067,
+      57.476414
+    ],
+    [
+      -20.251081,
+      57.476592
+    ],
+    [
+      -20.251575,
+      57.476836
+    ],
+    [
+      -20.252014,
+      57.477065
+    ],
+    [
+      -20.252473,
+      57.477292
+    ],
+    [
+      -20.253165,
+      57.47757
+    ],
+    [
+      -20.2539,
+      57.477751
+    ],
+    [
+      -20.254296,
+      57.477798
+    ],
+    [
+      -20.254704,
+      57.477817
+    ],
+    [
+      -20.255437,
+      57.47778
+    ],
+    [
+      -20.255954,
+      57.477746
+    ],
+    [
+      -20.256317,
+      57.477697
+    ],
+    [
+      -20.257074,
+      57.477446
+    ],
+    [
+      -20.257434,
+      57.477327
+    ],
+    [
+      -20.257885,
+      57.477188
+    ],
+    [
+      -20.258273,
+      57.477091
+    ],
+    [
+      -20.2587,
+      57.477002
+    ],
+    [
+      -20.259278,
+      57.476909
+    ],
+    [
+      -20.259883,
+      57.47685
+    ],
+    [
+      -20.260506,
+      57.476832
+    ],
+    [
+      -20.26111,
+      57.476851
+    ],
+    [
+      -20.261482,
+      57.476876
+    ],
+    [
+      -20.261854,
+      57.476917
+    ],
+    [
+      -20.26227,
+      57.47699
+    ],
+    [
+      -20.262622,
+      57.477071
+    ],
+    [
+      -20.263194,
+      57.477258
+    ],
+    [
+      -20.263758,
+      57.477499
+    ],
+    [
+      -20.264273,
+      57.477755
+    ],
+    [
+      -20.264619,
+      57.477938
+    ],
+    [
+      -20.264948,
+      57.478205
+    ],
+    [
+      -20.265326,
+      57.478539
+    ],
+    [
+      -20.265558,
+      57.478842
+    ],
+    [
+      -20.265544,
+      57.479222
+    ],
+    [
+      -20.26485,
+      57.479862
+    ],
+    [
+      -20.264048,
+      57.480524
+    ],
+    [
+      -20.262847,
+      57.481514
+    ],
+    [
+      -20.262082,
+      57.482168
+    ],
+    [
+      -20.261794,
+      57.482417
+    ],
+    [
+      -20.260475,
+      57.483554
+    ],
+    [
+      -20.259476,
+      57.484411
+    ],
+    [
+      -20.258961,
+      57.484856
+    ],
+    [
+      -20.258609,
+      57.485212
+    ],
+    [
+      -20.257953,
+      57.486207
+    ],
+    [
+      -20.257782,
+      57.486634
+    ],
+    [
+      -20.25774,
+      57.487088
+    ],
+    [
+      -20.257836,
+      57.487553
+    ],
+    [
+      -20.258063,
+      57.487943
+    ],
+    [
+      -20.258399,
+      57.488256
+    ],
+    [
+      -20.259397,
+      57.488844
+    ],
+    [
+      -20.259715,
+      57.489041
+    ],
+    [
+      -20.260995,
+      57.489789
+    ],
+    [
+      -20.261435,
+      57.490049
+    ],
+    [
+      -20.262161,
+      57.490477
+    ],
+    [
+      -20.262565,
+      57.490727
+    ],
+    [
+      -20.263124,
+      57.491064
+    ],
+    [
+      -20.263637,
+      57.491372
+    ],
+    [
+      -20.264162,
+      57.491673
+    ],
+    [
+      -20.264803,
+      57.492051
+    ],
+    [
+      -20.265563,
+      57.492504
+    ],
+    [
+      -20.266173,
+      57.492878
+    ],
+    [
+      -20.266578,
+      57.493135
+    ],
+    [
+      -20.2671,
+      57.493497
+    ],
+    [
+      -20.267423,
+      57.493694
+    ],
+    [
+      -20.268614,
+      57.494368
+    ],
+    [
+      -20.269255,
+      57.494743
+    ],
+    [
+      -20.270096,
+      57.495214
+    ],
+    [
+      -20.271605,
+      57.496045
+    ],
+    [
+      -20.272119,
+      57.496328
+    ],
+    [
+      -20.272596,
+      57.496555
+    ],
+    [
+      -20.273076,
+      57.496688
+    ],
+    [
+      -20.273616,
+      57.496752
+    ],
+    [
+      -20.274129,
+      57.496704
+    ],
+    [
+      -20.274798,
+      57.496584
+    ],
+    [
+      -20.275302,
+      57.496481
+    ],
+    [
+      -20.275764,
+      57.496391
+    ],
+    [
+      -20.276203,
+      57.496361
+    ],
+    [
+      -20.276942,
+      57.496362
+    ],
+    [
+      -20.27745,
+      57.49637
+    ],
+    [
+      -20.277919,
+      57.496411
+    ],
+    [
+      -20.27849,
+      57.496551
+    ],
+    [
+      -20.279017,
+      57.496773
+    ],
+    [
+      -20.279461,
+      57.49701
+    ],
+    [
+      -20.279933,
+      57.497268
+    ],
+    [
+      -20.280476,
+      57.497527
+    ],
+    [
+      -20.280946,
+      57.497721
+    ],
+    [
+      -20.281771,
+      57.497917
+    ],
+    [
+      -20.282151,
+      57.497958
+    ],
+    [
+      -20.282633,
+      57.497973
+    ],
+    [
+      -20.283107,
+      57.497922
+    ],
+    [
+      -20.2835,
+      57.497848
+    ],
+    [
+      -20.283897,
+      57.497744
+    ],
+    [
+      -20.284274,
+      57.497633
+    ],
+    [
+      -20.284693,
+      57.497498
+    ],
+    [
+      -20.285048,
+      57.497351
+    ],
+    [
+      -20.285425,
+      57.497156
+    ],
+    [
+      -20.286082,
+      57.496794
+    ],
+    [
+      -20.286475,
+      57.496593
+    ],
+    [
+      -20.287167,
+      57.496228
+    ],
+    [
+      -20.287828,
+      57.495893
+    ],
+    [
+      -20.288286,
+      57.495658
+    ],
+    [
+      -20.289082,
+      57.495261
+    ],
+    [
+      -20.289788,
+      57.494904
+    ],
+    [
+      -20.290188,
+      57.4947
+    ],
+    [
+      -20.290702,
+      57.494448
+    ],
+    [
+      -20.291167,
+      57.494247
+    ],
+    [
+      -20.291732,
+      57.494042
+    ],
+    [
+      -20.292288,
+      57.493848
+    ],
+    [
+      -20.292876,
+      57.493679
+    ],
+    [
+      -20.293595,
+      57.493531
+    ],
+    [
+      -20.29403,
+      57.493475
+    ],
+    [
+      -20.29462,
+      57.493434
+    ],
+    [
+      -20.295024,
+      57.493412
+    ],
+    [
+      -20.295448,
+      57.493397
+    ],
+    [
+      -20.295917,
+      57.493404
+    ],
+    [
+      -20.296351,
+      57.493421
+    ],
+    [
+      -20.29674,
+      57.493458
+    ],
+    [
+      -20.297266,
+      57.493555
+    ],
+    [
+      -20.297685,
+      57.493647
+    ],
+    [
+      -20.298326,
+      57.493825
+    ],
+    [
+      -20.298938,
+      57.494053
+    ],
+    [
+      -20.29943,
+      57.49428
+    ],
+    [
+      -20.300072,
+      57.494624
+    ],
+    [
+      -20.300743,
+      57.49506
+    ],
+    [
+      -20.301037,
+      57.495286
+    ],
+    [
+      -20.301381,
+      57.495535
+    ],
+    [
+      -20.302008,
+      57.496041
+    ],
+    [
+      -20.302339,
+      57.496307
+    ],
+    [
+      -20.302812,
+      57.496664
+    ],
+    [
+      -20.303582,
+      57.497325
+    ],
+    [
+      -20.304139,
+      57.49778
+    ],
+    [
+      -20.304652,
+      57.498238
+    ],
+    [
+      -20.305008,
+      57.498618
+    ],
+    [
+      -20.305371,
+      57.499108
+    ],
+    [
+      -20.305687,
+      57.499567
+    ],
+    [
+      -20.305937,
+      57.50003
+    ],
+    [
+      -20.30614,
+      57.500518
+    ],
+    [
+      -20.306295,
+      57.500986
+    ],
+    [
+      -20.306408,
+      57.501456
+    ],
+    [
+      -20.306538,
+      57.502226
+    ],
+    [
+      -20.306732,
+      57.503419
+    ],
+    [
+      -20.306846,
+      57.504143
+    ],
+    [
+      -20.307043,
+      57.505319
+    ],
+    [
+      -20.307173,
+      57.506075
+    ],
+    [
+      -20.307294,
+      57.506744
+    ],
+    [
+      -20.307367,
+      57.507195
+    ],
+    [
+      -20.307454,
+      57.507787
+    ],
+    [
+      -20.307455,
+      57.508197
+    ],
+    [
+      -20.307292,
+      57.509551
+    ],
+    [
+      -20.307237,
+      57.510111
+    ],
+    [
+      -20.307211,
+      57.510675
+    ],
+    [
+      -20.30722,
+      57.511085
+    ],
+    [
+      -20.307262,
+      57.511479
+    ],
+    [
+      -20.307342,
+      57.511924
+    ],
+    [
+      -20.307537,
+      57.512566
+    ],
+    [
+      -20.308091,
+      57.513839
+    ],
+    [
+      -20.30826,
+      57.514224
+    ],
+    [
+      -20.308562,
+      57.514882
+    ],
+    [
+      -20.308789,
+      57.515387
+    ],
+    [
+      -20.309175,
+      57.516257
+    ],
+    [
+      -20.309519,
+      57.517028
+    ],
+    [
+      -20.309758,
+      57.517525
+    ],
+    [
+      -20.309981,
+      57.517968
+    ],
+    [
+      -20.310231,
+      57.518431
+    ],
+    [
+      -20.31084,
+      57.519492
+    ],
+    [
+      -20.311478,
+      57.520476
+    ],
+    [
+      -20.311903,
+      57.521078
+    ],
+    [
+      -20.312145,
+      57.52143
+    ],
+    [
+      -20.31239,
+      57.52178
+    ],
+    [
+      -20.312623,
+      57.522094
+    ],
+    [
+      -20.31312,
+      57.522717
+    ],
+    [
+      -20.313419,
+      57.523053
+    ],
+    [
+      -20.314166,
+      57.523809
+    ],
+    [
+      -20.314985,
+      57.524615
+    ],
+    [
+      -20.315344,
+      57.524966
+    ],
+    [
+      -20.315752,
+      57.525157
+    ],
+    [
+      -20.316115,
+      57.525312
+    ],
+    [
+      -20.316498,
+      57.525796
+    ],
+    [
+      -20.31659,
+      57.525914
+    ]
+  ]
+}

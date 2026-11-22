@@ -1,0 +1,179 @@
+{
+  "uid": "mt13",
+  "name": "Souillac & Gris Gris",
+  "blurb": "Royal Road Souillac and the coastal road out toward the Gris Gris headland.",
+  "routeName": "Chamouny Road / Blackburn Road / Kowlessur Road / Prune Road / Chamouny Road / Ansline Road",
+  "lengthM": 664.9,
+  "sea": "right",
+  "roads": [
+    {
+      "name": "Chamouny Road",
+      "at": 0,
+      "length": 52.6,
+      "highway": "secondary"
+    },
+    {
+      "name": "Blackburn Road",
+      "at": 52.6,
+      "length": 92.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Kowlessur Road",
+      "at": 147.8,
+      "length": 77.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Prune Road",
+      "at": 225.4,
+      "length": 268.0,
+      "highway": "residential"
+    },
+    {
+      "name": "Chamouny Road",
+      "at": 493.4,
+      "length": 46.7,
+      "highway": "secondary"
+    },
+    {
+      "name": "Ansline Road",
+      "at": 540.1,
+      "length": 124.8,
+      "highway": "residential"
+    }
+  ],
+  "turns": [
+    {
+      "at": 353.6,
+      "dir": "left",
+      "deg": 54.0,
+      "road": "Prune Road"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 22.6,
+      "sea": "right",
+      "road": "Chamouny Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 144.8,
+      "heading": 27.4,
+      "sea": "right",
+      "road": "Blackburn Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 225.4,
+      "heading": 24.6,
+      "sea": "right",
+      "road": "Kowlessur Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 353.6,
+      "heading": 330.5,
+      "turn": "left",
+      "sea": "right",
+      "road": "Prune Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 493.4,
+      "heading": 326.6,
+      "sea": "right",
+      "road": "Prune Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 540.1,
+      "heading": 330.8,
+      "sea": "right",
+      "road": "Chamouny Road",
+      "density": "low",
+      "buildings": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Robert Edward Hart",
+      "kind": "school",
+      "at": 0.0,
+      "side": "right",
+      "lat": -20.513221,
+      "lon": 57.511008
+    },
+    {
+      "name": "Rochester Falls",
+      "kind": "poi",
+      "at": 423.5,
+      "side": "right",
+      "lat": -20.508149,
+      "lon": 57.511695
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "le_morne",
+      "name": "Le Morne Brabant",
+      "elev": 556,
+      "bearing": 286.2,
+      "rel": -96.3,
+      "side": "left",
+      "distKm": 21.58,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 24.8,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 12,
+  "polyline_slim": [
+    [
+      -20.512243,
+      57.509672
+    ],
+    [
+      -20.511807,
+      57.509865
+    ],
+    [
+      -20.511062,
+      57.510251
+    ],
+    [
+      -20.510543,
+      57.510512
+    ],
+    [
+      -20.509959,
+      57.510797
+    ],
+    [
+      -20.509365,
+      57.510547
+    ],
+    [
+      -20.508272,
+      57.509888
+    ],
+    [
+      -20.507921,
+      57.509642
+    ],
+    [
+      -20.506943,
+      57.509057
+    ]
+  ]
+}

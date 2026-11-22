@@ -1,0 +1,789 @@
+{
+  "uid": "mt10",
+  "name": "Rose Hill & Quatre Bornes",
+  "blurb": "Royal Road Rose Hill and Saint Jean Road (A8) through Rose Hill into Quatre Bornes.",
+  "routeName": "Vandermeersch Street / A11 / Royal Road Rose Hill / Dr Maurice Cure Street / Royal Road Rose Hill / Boundary Road / Coriolis Avenue / Remy Ollier Avenue / Avenue Paul Henri / Remy Ollier Avenue / Mallefille Avenue / Avenue Paul Henri / Sir Virgil Naz Avenue / Adrien d'Epinay Avenue / Victoria Avenue / Sir Virgil Naz Avenue / Victoria Avenue / Hennessy Avenue / Conte de Lisle Avenue / Victoria Avenue / Stanley Avenue / Sir Guy Forget Avenue / Farquhar Avenue / Baisac Avenue / Victoria Avenue / Victoria Road / Victoria Avenue / Victoria Road / Victoria Avenue",
+  "lengthM": 3491.1,
+  "sea": "left",
+  "roads": [
+    {
+      "name": "Vandermeersch Street",
+      "at": 0,
+      "length": 25.5,
+      "highway": "primary"
+    },
+    {
+      "name": "A11",
+      "at": 25.4,
+      "length": 191.9,
+      "highway": "primary"
+    },
+    {
+      "name": "Royal Road Rose Hill",
+      "at": 265.0,
+      "length": 117.2,
+      "highway": "primary"
+    },
+    {
+      "name": "Dr Maurice Cure Street",
+      "at": 382.1,
+      "length": 26.3,
+      "highway": "secondary"
+    },
+    {
+      "name": "Royal Road Rose Hill",
+      "at": 408.4,
+      "length": 91.4,
+      "highway": "primary"
+    },
+    {
+      "name": "Boundary Road",
+      "at": 499.8,
+      "length": 121.9,
+      "highway": "secondary"
+    },
+    {
+      "name": "Coriolis Avenue",
+      "at": 621.7,
+      "length": 152.8,
+      "highway": "residential"
+    },
+    {
+      "name": "Remy Ollier Avenue",
+      "at": 774.5,
+      "length": 639.9,
+      "highway": "primary"
+    },
+    {
+      "name": "Avenue Paul Henri",
+      "at": 1414.5,
+      "length": 141.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Remy Ollier Avenue",
+      "at": 1556.4,
+      "length": 81.5,
+      "highway": "primary"
+    },
+    {
+      "name": "Mallefille Avenue",
+      "at": 1638.0,
+      "length": 98.8,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue Paul Henri",
+      "at": 1736.8,
+      "length": 283.8,
+      "highway": "residential"
+    },
+    {
+      "name": "Sir Virgil Naz Avenue",
+      "at": 2020.6,
+      "length": 84.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Adrien d'Epinay Avenue",
+      "at": 2104.8,
+      "length": 35.1,
+      "highway": "residential"
+    },
+    {
+      "name": "Victoria Avenue",
+      "at": 2139.9,
+      "length": 43.3,
+      "highway": "secondary"
+    },
+    {
+      "name": "Sir Virgil Naz Avenue",
+      "at": 2183.3,
+      "length": 26.3,
+      "highway": "primary"
+    },
+    {
+      "name": "Victoria Avenue",
+      "at": 2219.0,
+      "length": 229.2,
+      "highway": "secondary"
+    },
+    {
+      "name": "Hennessy Avenue",
+      "at": 2448.1,
+      "length": 51.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Conte de Lisle Avenue",
+      "at": 2499.5,
+      "length": 164.8,
+      "highway": "residential"
+    },
+    {
+      "name": "Victoria Avenue",
+      "at": 2664.2,
+      "length": 151.0,
+      "highway": "secondary"
+    },
+    {
+      "name": "Stanley Avenue",
+      "at": 2815.2,
+      "length": 58.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Sir Guy Forget Avenue",
+      "at": 2873.4,
+      "length": 83.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Farquhar Avenue",
+      "at": 2957.3,
+      "length": 95.6,
+      "highway": "residential"
+    },
+    {
+      "name": "Baisac Avenue",
+      "at": 3052.9,
+      "length": 44.6,
+      "highway": "residential"
+    },
+    {
+      "name": "Victoria Avenue",
+      "at": 3097.5,
+      "length": 59.9,
+      "highway": "secondary"
+    },
+    {
+      "name": "Victoria Road",
+      "at": 3157.4,
+      "length": 127.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Victoria Avenue",
+      "at": 3284.7,
+      "length": 69.2,
+      "highway": "secondary"
+    },
+    {
+      "name": "Victoria Road",
+      "at": 3353.9,
+      "length": 113.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Victoria Avenue",
+      "at": 3467.1,
+      "length": 24.0,
+      "highway": "secondary"
+    }
+  ],
+  "turns": [
+    {
+      "at": 156.0,
+      "dir": "right",
+      "deg": 80.0,
+      "road": "A11"
+    },
+    {
+      "at": 375.7,
+      "dir": "left",
+      "deg": 67.4,
+      "road": "Royal Road Rose Hill"
+    },
+    {
+      "at": 958.2,
+      "dir": "right",
+      "deg": 90.6,
+      "road": "Remy Ollier Avenue"
+    },
+    {
+      "at": 1042.1,
+      "dir": "left",
+      "deg": 18.8,
+      "road": "Remy Ollier Avenue"
+    },
+    {
+      "at": 1638.0,
+      "dir": "left",
+      "deg": 62.3,
+      "road": "Mallefille Avenue"
+    },
+    {
+      "at": 2020.6,
+      "dir": "right",
+      "deg": 48.6,
+      "road": "Sir Virgil Naz Avenue"
+    },
+    {
+      "at": 2104.8,
+      "dir": "left",
+      "deg": 20.9,
+      "road": "Adrien d'Epinay Avenue"
+    },
+    {
+      "at": 2193.5,
+      "dir": "left",
+      "deg": 20.8,
+      "road": "Sir Virgil Naz Avenue"
+    },
+    {
+      "at": 2321.4,
+      "dir": "right",
+      "deg": 19.8,
+      "road": "Victoria Avenue"
+    },
+    {
+      "at": 3353.9,
+      "dir": "left",
+      "deg": 102.5,
+      "road": "Victoria Avenue"
+    },
+    {
+      "at": 3467.1,
+      "dir": "left",
+      "deg": 90.0,
+      "road": "Victoria Road"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 106.2,
+      "sea": "left",
+      "road": "Vandermeersch Street",
+      "density": "high",
+      "buildings": 9
+    },
+    {
+      "at": 156.0,
+      "heading": 186.2,
+      "turn": "right",
+      "sea": "left",
+      "road": "A11",
+      "density": "high",
+      "buildings": 13
+    },
+    {
+      "at": 244.5,
+      "heading": 193.6,
+      "sea": "left",
+      "road": "A11",
+      "density": "high",
+      "buildings": 17
+    },
+    {
+      "at": 375.7,
+      "heading": 126.2,
+      "turn": "left",
+      "sea": "left",
+      "road": "Royal Road Rose Hill",
+      "density": "high",
+      "buildings": 23
+    },
+    {
+      "at": 499.8,
+      "heading": 129.1,
+      "sea": "left",
+      "road": "Royal Road Rose Hill",
+      "density": "high",
+      "buildings": 16
+    },
+    {
+      "at": 621.7,
+      "heading": 128.5,
+      "sea": "left",
+      "road": "Boundary Road",
+      "density": "high",
+      "buildings": 13
+    },
+    {
+      "at": 726.1,
+      "heading": 127.4,
+      "sea": "left",
+      "road": "Coriolis Avenue",
+      "density": "medium",
+      "buildings": 7
+    },
+    {
+      "at": 875.4,
+      "heading": 127.1,
+      "sea": "left",
+      "road": "Remy Ollier Avenue",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 958.2,
+      "heading": 217.8,
+      "turn": "right",
+      "sea": "left",
+      "road": "Remy Ollier Avenue",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 1042.1,
+      "heading": 199.0,
+      "turn": "left",
+      "sea": "left",
+      "road": "Remy Ollier Avenue",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 1128.0,
+      "heading": 209.3,
+      "sea": "left",
+      "road": "Remy Ollier Avenue",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 1239.9,
+      "heading": 220.7,
+      "sea": "left",
+      "road": "Remy Ollier Avenue",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1342.5,
+      "heading": 219.5,
+      "sea": "left",
+      "road": "Remy Ollier Avenue",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 1540.9,
+      "heading": 220.3,
+      "sea": "left",
+      "road": "Avenue Paul Henri",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 1638.0,
+      "heading": 158.0,
+      "turn": "left",
+      "sea": "left",
+      "road": "Mallefille Avenue",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1736.8,
+      "heading": 166.0,
+      "sea": "left",
+      "road": "Avenue Paul Henri",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2020.6,
+      "heading": 214.6,
+      "turn": "right",
+      "sea": "left",
+      "road": "Sir Virgil Naz Avenue",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2104.8,
+      "heading": 193.7,
+      "turn": "left",
+      "sea": "left",
+      "road": "Adrien d'Epinay Avenue",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2193.5,
+      "heading": 172.9,
+      "turn": "left",
+      "sea": "left",
+      "road": "Sir Virgil Naz Avenue",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2321.4,
+      "heading": 192.7,
+      "turn": "right",
+      "sea": "left",
+      "road": "Victoria Avenue",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 2448.1,
+      "heading": 189.1,
+      "sea": "left",
+      "road": "Hennessy Avenue",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 2600.6,
+      "heading": 180.8,
+      "sea": "left",
+      "road": "Conte de Lisle Avenue",
+      "density": "high",
+      "buildings": 20
+    },
+    {
+      "at": 2729.3,
+      "heading": 175.8,
+      "sea": "left",
+      "road": "Victoria Avenue",
+      "density": "high",
+      "buildings": 36
+    },
+    {
+      "at": 2815.2,
+      "heading": 167.9,
+      "sea": "left",
+      "road": "Victoria Avenue",
+      "density": "high",
+      "buildings": 30
+    },
+    {
+      "at": 2912.3,
+      "heading": 162.2,
+      "sea": "left",
+      "road": "Sir Guy Forget Avenue",
+      "density": "high",
+      "buildings": 27
+    },
+    {
+      "at": 3028.5,
+      "heading": 155.7,
+      "sea": "left",
+      "road": "Farquhar Avenue",
+      "density": "high",
+      "buildings": 22
+    },
+    {
+      "at": 3139.0,
+      "heading": 155.1,
+      "sea": "left",
+      "road": "Victoria Avenue",
+      "density": "high",
+      "buildings": 11
+    },
+    {
+      "at": 3259.7,
+      "heading": 139.7,
+      "sea": "left",
+      "road": "Victoria Road",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 3353.9,
+      "heading": 37.2,
+      "turn": "left",
+      "sea": "left",
+      "road": "Victoria Avenue",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 3467.1,
+      "heading": 307.2,
+      "turn": "left",
+      "sea": "left",
+      "road": "Victoria Road",
+      "density": "medium",
+      "buildings": 6
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Metro Express",
+      "kind": "poi",
+      "at": 187.3,
+      "side": "right",
+      "lat": -20.242791,
+      "lon": 57.476036
+    },
+    {
+      "name": "Rose Hill Central",
+      "kind": "poi",
+      "at": 269.5,
+      "side": "left",
+      "lat": -20.243532,
+      "lon": 57.47603
+    },
+    {
+      "name": "Rose Hill Market",
+      "kind": "religion",
+      "at": 560.7,
+      "side": "right",
+      "lat": -20.245388,
+      "lon": 57.47832
+    },
+    {
+      "name": "Quatre Bornes Market",
+      "kind": "marketplace",
+      "at": 3319.0,
+      "side": "left",
+      "lat": -20.26641,
+      "lon": 57.479765
+    },
+    {
+      "name": "Quatre Bornes",
+      "kind": "bus_station",
+      "at": 3408.6,
+      "side": "left",
+      "lat": -20.265566,
+      "lon": 57.478451
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "corps_de_garde",
+      "name": "Corps de Garde",
+      "elev": 720,
+      "bearing": 229.9,
+      "rel": 68.9,
+      "side": "right",
+      "distKm": 2.95,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "ory",
+      "name": "Montagne Ory",
+      "elev": 500,
+      "bearing": 26.3,
+      "rel": -134.8,
+      "side": "left",
+      "distKm": 4.34,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "moka",
+      "name": "Moka Range",
+      "elev": 400,
+      "bearing": 35.3,
+      "rel": -125.8,
+      "side": "left",
+      "distKm": 5.86,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 165.4,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 95,
+  "polyline_slim": [
+    [
+      -20.2412,
+      57.476
+    ],
+    [
+      -20.241722,
+      57.476145
+    ],
+    [
+      -20.242511,
+      57.476053
+    ],
+    [
+      -20.242927,
+      57.476035
+    ],
+    [
+      -20.243305,
+      57.476025
+    ],
+    [
+      -20.24365,
+      57.476104
+    ],
+    [
+      -20.244115,
+      57.476802
+    ],
+    [
+      -20.244376,
+      57.477168
+    ],
+    [
+      -20.244811,
+      57.47773
+    ],
+    [
+      -20.245502,
+      57.478636
+    ],
+    [
+      -20.246086,
+      57.479419
+    ],
+    [
+      -20.24635,
+      57.479787
+    ],
+    [
+      -20.246897,
+      57.480556
+    ],
+    [
+      -20.247184,
+      57.480512
+    ],
+    [
+      -20.247991,
+      57.479845
+    ],
+    [
+      -20.248414,
+      57.479682
+    ],
+    [
+      -20.248787,
+      57.479525
+    ],
+    [
+      -20.249112,
+      57.479292
+    ],
+    [
+      -20.249587,
+      57.478878
+    ],
+    [
+      -20.2503,
+      57.478257
+    ],
+    [
+      -20.2508,
+      57.477818
+    ],
+    [
+      -20.251665,
+      57.477035
+    ],
+    [
+      -20.2517,
+      57.477
+    ],
+    [
+      -20.252125,
+      57.477254
+    ],
+    [
+      -20.252948,
+      57.477609
+    ],
+    [
+      -20.253484,
+      57.477751
+    ],
+    [
+      -20.255422,
+      57.478268
+    ],
+    [
+      -20.255846,
+      57.477956
+    ],
+    [
+      -20.25636,
+      57.477746
+    ],
+    [
+      -20.256473,
+      57.477426
+    ],
+    [
+      -20.257668,
+      57.477132
+    ],
+    [
+      -20.258282,
+      57.476985
+    ],
+    [
+      -20.258783,
+      57.476888
+    ],
+    [
+      -20.259238,
+      57.47681
+    ],
+    [
+      -20.260144,
+      57.476732
+    ],
+    [
+      -20.260715,
+      57.476724
+    ],
+    [
+      -20.261299,
+      57.476759
+    ],
+    [
+      -20.262066,
+      57.47684
+    ],
+    [
+      -20.262578,
+      57.476957
+    ],
+    [
+      -20.26301,
+      57.477079
+    ],
+    [
+      -20.263889,
+      57.477446
+    ],
+    [
+      -20.264458,
+      57.477709
+    ],
+    [
+      -20.264795,
+      57.47788
+    ],
+    [
+      -20.26524,
+      57.478113
+    ],
+    [
+      -20.265746,
+      57.47843
+    ],
+    [
+      -20.26608,
+      57.478732
+    ],
+    [
+      -20.2659,
+      57.4786
+    ],
+    [
+      -20.265479,
+      57.478495
+    ],
+    [
+      -20.265075,
+      57.478138
+    ],
+    [
+      -20.264944,
+      57.477955
+    ]
+  ]
+}

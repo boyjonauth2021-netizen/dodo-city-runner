@@ -1,0 +1,444 @@
+{
+  "uid": "mt15",
+  "name": "Goodlands",
+  "blurb": "Mapou–Goodlands Road and the Goodlands Bypass through the market town.",
+  "routeName": "Soobhany Street / A5 / Verger Road / Lotus Road / Verger Road / Keijou Road / Swami Dayanand Road / Natooa Road",
+  "lengthM": 2647.8,
+  "sea": null,
+  "roads": [
+    {
+      "name": "Soobhany Street",
+      "at": 0,
+      "length": 584.4,
+      "highway": "residential"
+    },
+    {
+      "name": "A5",
+      "at": 584.4,
+      "length": 335.0,
+      "highway": "secondary"
+    },
+    {
+      "name": "Verger Road",
+      "at": 919.3,
+      "length": 205.1,
+      "highway": "residential"
+    },
+    {
+      "name": "Lotus Road",
+      "at": 1124.3,
+      "length": 181.8,
+      "highway": "residential"
+    },
+    {
+      "name": "Verger Road",
+      "at": 1306.2,
+      "length": 32.4,
+      "highway": "residential"
+    },
+    {
+      "name": "Keijou Road",
+      "at": 1338.6,
+      "length": 1013.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Swami Dayanand Road",
+      "at": 2352.1,
+      "length": 200.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Natooa Road",
+      "at": 2552.6,
+      "length": 95.3,
+      "highway": "residential"
+    }
+  ],
+  "turns": [
+    {
+      "at": 535.7,
+      "dir": "left",
+      "deg": 78.5,
+      "road": "Soobhany Street"
+    },
+    {
+      "at": 711.3,
+      "dir": "right",
+      "deg": 91.5,
+      "road": "A5"
+    },
+    {
+      "at": 1492.1,
+      "dir": "right",
+      "deg": 91.2,
+      "road": "Keijou Road"
+    },
+    {
+      "at": 1617.4,
+      "dir": "right",
+      "deg": 40.1,
+      "road": "Keijou Road"
+    },
+    {
+      "at": 1732.4,
+      "dir": "left",
+      "deg": 29.6,
+      "road": "Keijou Road"
+    },
+    {
+      "at": 2046.8,
+      "dir": "left",
+      "deg": 29.8,
+      "road": "Keijou Road"
+    },
+    {
+      "at": 2214.0,
+      "dir": "left",
+      "deg": 52.5,
+      "road": "Keijou Road"
+    },
+    {
+      "at": 2309.4,
+      "dir": "right",
+      "deg": 99.5,
+      "road": "Keijou Road"
+    },
+    {
+      "at": 2412.6,
+      "dir": "left",
+      "deg": 24.2,
+      "road": "Swami Dayanand Road"
+    },
+    {
+      "at": 2552.6,
+      "dir": "right",
+      "deg": 85.2,
+      "road": "Swami Dayanand Road"
+    },
+    {
+      "at": 2607.3,
+      "dir": "left",
+      "deg": 23.9,
+      "road": "Natooa Road"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 38.9,
+      "road": "Soobhany Street",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 110.0,
+      "heading": 38.9,
+      "road": "Soobhany Street",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 272.1,
+      "heading": 37.2,
+      "road": "Soobhany Street",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 379.1,
+      "heading": 24.4,
+      "road": "Soobhany Street",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 535.7,
+      "heading": 305.8,
+      "turn": "left",
+      "road": "Soobhany Street",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 711.3,
+      "heading": 37.3,
+      "turn": "right",
+      "road": "A5",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 880.0,
+      "heading": 38.3,
+      "road": "A5",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 1036.1,
+      "heading": 42.1,
+      "road": "Verger Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1124.3,
+      "heading": 37.1,
+      "road": "Lotus Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1306.2,
+      "heading": 34.0,
+      "road": "Lotus Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1492.1,
+      "heading": 125.2,
+      "turn": "right",
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1617.4,
+      "heading": 165.3,
+      "turn": "right",
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1732.4,
+      "heading": 135.7,
+      "turn": "left",
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1830.8,
+      "heading": 135.6,
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1930.0,
+      "heading": 136.1,
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2046.8,
+      "heading": 106.3,
+      "turn": "left",
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2214.0,
+      "heading": 53.8,
+      "turn": "left",
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2309.4,
+      "heading": 153.3,
+      "turn": "right",
+      "road": "Keijou Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2412.6,
+      "heading": 129.1,
+      "turn": "left",
+      "road": "Swami Dayanand Road",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 2552.6,
+      "heading": 214.3,
+      "turn": "right",
+      "road": "Swami Dayanand Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2607.3,
+      "heading": 190.4,
+      "turn": "left",
+      "road": "Natooa Road",
+      "density": "low",
+      "buildings": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Mapou",
+      "kind": "quarter",
+      "at": 647.8,
+      "side": "left",
+      "lat": -20.033419,
+      "lon": 57.644841
+    },
+    {
+      "name": "Goodlands",
+      "kind": "poi",
+      "at": 2439.0,
+      "side": "left",
+      "lat": -20.033111,
+      "lon": 57.657174
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "coin_de_mire",
+      "name": "Coin de Mire / Gunner's Quoin",
+      "elev": 156,
+      "bearing": 342.2,
+      "rel": 166.1,
+      "side": "behind",
+      "distKm": 10.5,
+      "crater": false,
+      "islet": true
+    }
+  ],
+  "heading0": 34.4,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 57,
+  "polyline_slim": [
+    [
+      -20.0384,
+      57.6428
+    ],
+    [
+      -20.037631,
+      57.64346
+    ],
+    [
+      -20.037222,
+      57.643811
+    ],
+    [
+      -20.036503,
+      57.644441
+    ],
+    [
+      -20.035737,
+      57.645059
+    ],
+    [
+      -20.034456,
+      57.645677
+    ],
+    [
+      -20.0342,
+      57.6453
+    ],
+    [
+      -20.033284,
+      57.646023
+    ],
+    [
+      -20.032079,
+      57.647001
+    ],
+    [
+      -20.030942,
+      57.647874
+    ],
+    [
+      -20.030317,
+      57.648392
+    ],
+    [
+      -20.029904,
+      57.648727
+    ],
+    [
+      -20.029049,
+      57.649488
+    ],
+    [
+      -20.029781,
+      57.650825
+    ],
+    [
+      -20.030161,
+      57.651337
+    ],
+    [
+      -20.030469,
+      57.651772
+    ],
+    [
+      -20.030842,
+      57.65167
+    ],
+    [
+      -20.031308,
+      57.652122
+    ],
+    [
+      -20.031934,
+      57.652787
+    ],
+    [
+      -20.03257,
+      57.65345
+    ],
+    [
+      -20.03302,
+      57.653911
+    ],
+    [
+      -20.033325,
+      57.654227
+    ],
+    [
+      -20.032343,
+      57.655179
+    ],
+    [
+      -20.032488,
+      57.655557
+    ],
+    [
+      -20.032304,
+      57.655949
+    ],
+    [
+      -20.032553,
+      57.656245
+    ],
+    [
+      -20.032918,
+      57.656674
+    ],
+    [
+      -20.03383,
+      57.656149
+    ],
+    [
+      -20.034258,
+      57.655896
+    ],
+    [
+      -20.034616,
+      57.655825
+    ]
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "uid": "mt12",
+  "name": "Belle Mare",
+  "blurb": "Belle Mare–Palmar–Trou d’Eau Douce coastal road along the east lagoon, with Île aux Cerfs offshore.",
+  "routeName": "Hibiscus Lane / Cremation Road / Kalenia avenue / Dahlia Avenue / Jasmin Avenue / Cyprus Avenue / Juggoo Road / Marigold Avenue / Tulsi Lane / Lake Road / Juggoo Road / Seda Avenue / Lake Road / Juggoo Road / Belle Mare Palmar Link Road / Nadair Road",
+  "lengthM": 1888.4,
+  "sea": "left",
+  "roads": [
+    {
+      "name": "Hibiscus Lane",
+      "at": 0,
+      "length": 84.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Cremation Road",
+      "at": 84.2,
+      "length": 122.0,
+      "highway": "residential"
+    },
+    {
+      "name": "Kalenia avenue",
+      "at": 206.3,
+      "length": 45.7,
+      "highway": "residential"
+    },
+    {
+      "name": "Dahlia Avenue",
+      "at": 252.1,
+      "length": 59.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Jasmin Avenue",
+      "at": 322.6,
+      "length": 56.6,
+      "highway": "residential"
+    },
+    {
+      "name": "Cyprus Avenue",
+      "at": 379.3,
+      "length": 36.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Juggoo Road",
+      "at": 415.5,
+      "length": 71.6,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Marigold Avenue",
+      "at": 487.0,
+      "length": 37.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Tulsi Lane",
+      "at": 524.2,
+      "length": 127.7,
+      "highway": "residential"
+    },
+    {
+      "name": "Lake Road",
+      "at": 652.1,
+      "length": 95.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Juggoo Road",
+      "at": 747.4,
+      "length": 94.9,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Seda Avenue",
+      "at": 842.3,
+      "length": 116.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Lake Road",
+      "at": 958.6,
+      "length": 77.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Juggoo Road",
+      "at": 1036.6,
+      "length": 306.2,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Belle Mare Palmar Link Road",
+      "at": 1343.0,
+      "length": 411.2,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Nadair Road",
+      "at": 1754.2,
+      "length": 134.2,
+      "highway": "tertiary"
+    }
+  ],
+  "turns": [
+    {
+      "at": 206.3,
+      "dir": "right",
+      "deg": 56.4,
+      "road": "Kalenia avenue"
+    },
+    {
+      "at": 415.5,
+      "dir": "right",
+      "deg": 31.8,
+      "road": "Cyprus Avenue"
+    },
+    {
+      "at": 524.2,
+      "dir": "left",
+      "deg": 86.8,
+      "road": "Tulsi Lane"
+    },
+    {
+      "at": 610.3,
+      "dir": "right",
+      "deg": 70.5,
+      "road": "Tulsi Lane"
+    },
+    {
+      "at": 703.5,
+      "dir": "left",
+      "deg": 52.5,
+      "road": "Lake Road"
+    },
+    {
+      "at": 785.5,
+      "dir": "right",
+      "deg": 26.1,
+      "road": "Juggoo Road"
+    },
+    {
+      "at": 903.8,
+      "dir": "left",
+      "deg": 27.1,
+      "road": "Seda Avenue"
+    },
+    {
+      "at": 1012.2,
+      "dir": "right",
+      "deg": 38.9,
+      "road": "Lake Road"
+    },
+    {
+      "at": 1119.4,
+      "dir": "right",
+      "deg": 56.1,
+      "road": "Juggoo Road"
+    },
+    {
+      "at": 1319.2,
+      "dir": "left",
+      "deg": 29.5,
+      "road": "Juggoo Road"
+    },
+    {
+      "at": 1415.6,
+      "dir": "left",
+      "deg": 25.1,
+      "road": "Belle Mare Palmar Link Road"
+    },
+    {
+      "at": 1501.0,
+      "dir": "right",
+      "deg": 45.0,
+      "road": "Belle Mare Palmar Link Road"
+    },
+    {
+      "at": 1687.0,
+      "dir": "left",
+      "deg": 47.7,
+      "road": "Belle Mare Palmar Link Road"
+    },
+    {
+      "at": 1754.2,
+      "dir": "right",
+      "deg": 46.5,
+      "road": "Belle Mare Palmar Link Road"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 136.8,
+      "sea": "left",
+      "road": "Hibiscus Lane",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 84.2,
+      "heading": 136.8,
+      "sea": "left",
+      "road": "Cremation Road",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 206.3,
+      "heading": 193.2,
+      "turn": "right",
+      "sea": "left",
+      "road": "Kalenia avenue",
+      "density": "high",
+      "buildings": 23
+    },
+    {
+      "at": 311.5,
+      "heading": 180.0,
+      "sea": "left",
+      "road": "Dahlia Avenue",
+      "density": "high",
+      "buildings": 26
+    },
+    {
+      "at": 415.5,
+      "heading": 211.8,
+      "turn": "right",
+      "sea": "left",
+      "road": "Cyprus Avenue",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 524.2,
+      "heading": 125.0,
+      "turn": "left",
+      "sea": "right",
+      "road": "Tulsi Lane",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 610.3,
+      "heading": 195.5,
+      "turn": "right",
+      "sea": "right",
+      "road": "Tulsi Lane",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 703.5,
+      "heading": 143.0,
+      "turn": "left",
+      "sea": "left",
+      "road": "Lake Road",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 785.5,
+      "heading": 169.2,
+      "turn": "right",
+      "sea": "left",
+      "road": "Juggoo Road",
+      "density": "medium",
+      "buildings": 5
+    },
+    {
+      "at": 903.8,
+      "heading": 142.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Seda Avenue",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1012.2,
+      "heading": 181.0,
+      "turn": "right",
+      "sea": "left",
+      "road": "Lake Road",
+      "density": "high",
+      "buildings": 8
+    },
+    {
+      "at": 1119.4,
+      "heading": 237.1,
+      "turn": "right",
+      "sea": "left",
+      "road": "Juggoo Road",
+      "density": "high",
+      "buildings": 9
+    },
+    {
+      "at": 1231.2,
+      "heading": 231.1,
+      "sea": "both",
+      "road": "Juggoo Road",
+      "density": "high",
+      "buildings": 23
+    },
+    {
+      "at": 1319.2,
+      "heading": 201.6,
+      "turn": "left",
+      "sea": "left",
+      "road": "Juggoo Road",
+      "density": "high",
+      "buildings": 16
+    },
+    {
+      "at": 1415.6,
+      "heading": 176.4,
+      "turn": "left",
+      "sea": "left",
+      "road": "Belle Mare Palmar Link Road",
+      "density": "medium",
+      "buildings": 6
+    },
+    {
+      "at": 1501.0,
+      "heading": 221.4,
+      "turn": "right",
+      "sea": "left",
+      "road": "Belle Mare Palmar Link Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1604.6,
+      "heading": 238.1,
+      "sea": "left",
+      "road": "Belle Mare Palmar Link Road",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 1687.0,
+      "heading": 190.5,
+      "turn": "left",
+      "sea": "left",
+      "road": "Belle Mare Palmar Link Road",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 1754.2,
+      "heading": 237.0,
+      "turn": "right",
+      "sea": "left",
+      "road": "Belle Mare Palmar Link Road",
+      "density": "medium",
+      "buildings": 5
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Belle Mare",
+      "kind": "yes",
+      "at": 137.7,
+      "side": "left",
+      "lat": -20.196397,
+      "lon": 57.774989
+    },
+    {
+      "name": "Palmar",
+      "kind": "poi",
+      "at": 1617.6,
+      "side": "left",
+      "lat": -20.207364,
+      "lon": 57.773751
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "ile_aux_cerfs",
+      "name": "Île aux Cerfs",
+      "elev": 8,
+      "bearing": 158.7,
+      "rel": -12.7,
+      "side": "ahead",
+      "distKm": 8.14,
+      "crater": false,
+      "islet": true
+    }
+  ],
+  "heading0": 141.2,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 62,
+  "polyline_slim": [
+    [
+      -20.1956,
+      57.774
+    ],
+    [
+      -20.1959,
+      57.7743
+    ],
+    [
+      -20.1963,
+      57.7748
+    ],
+    [
+      -20.1966,
+      57.7751
+    ],
+    [
+      -20.197,
+      57.7752
+    ],
+    [
+      -20.1974,
+      57.7751
+    ],
+    [
+      -20.1979,
+      57.7749
+    ],
+    [
+      -20.1985,
+      57.7748
+    ],
+    [
+      -20.199369,
+      57.774393
+    ],
+    [
+      -20.199638,
+      57.774802
+    ],
+    [
+      -20.199889,
+      57.775109
+    ],
+    [
+      -20.200297,
+      57.775056
+    ],
+    [
+      -20.20088,
+      57.775317
+    ],
+    [
+      -20.201164,
+      57.775606
+    ],
+    [
+      -20.201594,
+      57.775929
+    ],
+    [
+      -20.202063,
+      57.776059
+    ],
+    [
+      -20.202363,
+      57.776271
+    ],
+    [
+      -20.202751,
+      57.776593
+    ],
+    [
+      -20.203224,
+      57.77667
+    ],
+    [
+      -20.203578,
+      57.776527
+    ],
+    [
+      -20.203866,
+      57.77603
+    ],
+    [
+      -20.204114,
+      57.775621
+    ],
+    [
+      -20.204411,
+      57.775132
+    ],
+    [
+      -20.204747,
+      57.774908
+    ],
+    [
+      -20.205118,
+      57.774902
+    ],
+    [
+      -20.205507,
+      57.77472
+    ],
+    [
+      -20.20594,
+      57.774633
+    ],
+    [
+      -20.206574,
+      57.774676
+    ],
+    [
+      -20.20715,
+      57.773783
+    ],
+    [
+      -20.207379,
+      57.773452
+    ],
+    [
+      -20.207773,
+      57.77322
+    ],
+    [
+      -20.208156,
+      57.77342
+    ],
+    [
+      -20.208872,
+      57.772311
+    ]
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "uid": "mt1",
+  "name": "Caudan Waterfront",
+  "blurb": "Caudan Approach and the waterfront promenade toward Place d’Armes and the harbour.",
+  "routeName": "Caudan Approach Road / Autoroute Port-Louis – Sud / Caudan Approach Road / Caudan Waterfront Road",
+  "lengthM": 1336.5,
+  "sea": "both",
+  "roads": [
+    {
+      "name": "Caudan Approach Road",
+      "at": 0,
+      "length": 43.4,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Autoroute Port-Louis – Sud",
+      "at": 43.4,
+      "length": 131.4,
+      "highway": "trunk"
+    },
+    {
+      "name": "Caudan Approach Road",
+      "at": 174.8,
+      "length": 739.6,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Caudan Waterfront Road",
+      "at": 920.3,
+      "length": 416.0,
+      "highway": "tertiary"
+    }
+  ],
+  "turns": [
+    {
+      "at": 277.5,
+      "dir": "right",
+      "deg": 29.6,
+      "road": "Caudan Approach Road"
+    },
+    {
+      "at": 367.7,
+      "dir": "right",
+      "deg": 20.7,
+      "road": "Caudan Approach Road"
+    },
+    {
+      "at": 475.4,
+      "dir": "right",
+      "deg": 109.6,
+      "road": "Caudan Approach Road"
+    },
+    {
+      "at": 920.3,
+      "dir": "right",
+      "deg": 134.6,
+      "road": "Caudan Waterfront Road"
+    },
+    {
+      "at": 1006.7,
+      "dir": "left",
+      "deg": 71.2,
+      "road": "Caudan Waterfront Road"
+    },
+    {
+      "at": 1026.1,
+      "dir": "right",
+      "deg": 169.2,
+      "road": "Caudan Waterfront Road"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 253.3,
+      "sea": "right",
+      "road": "Caudan Approach Road",
+      "density": "medium",
+      "buildings": 5
+    },
+    {
+      "at": 96.3,
+      "heading": 249.8,
+      "sea": "both",
+      "road": "Autoroute Port-Louis – Sud",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 196.4,
+      "heading": 261.3,
+      "sea": "left",
+      "road": "Caudan Approach Road",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 277.5,
+      "heading": 290.9,
+      "turn": "right",
+      "sea": "both",
+      "road": "Caudan Approach Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 367.7,
+      "heading": 311.6,
+      "turn": "right",
+      "sea": "left",
+      "road": "Caudan Approach Road",
+      "density": "medium",
+      "buildings": 5
+    },
+    {
+      "at": 475.4,
+      "heading": 61.2,
+      "turn": "right",
+      "sea": "right",
+      "road": "Caudan Approach Road",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 920.3,
+      "heading": 195.9,
+      "turn": "right",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 1006.7,
+      "heading": 124.7,
+      "turn": "left",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "medium",
+      "buildings": 3
+    },
+    {
+      "at": 1026.1,
+      "heading": 293.9,
+      "turn": "right",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "medium",
+      "buildings": 4
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Centre d'Arts Caudan",
+      "kind": "poi",
+      "at": 430.2,
+      "side": "left",
+      "lat": -20.162493,
+      "lon": 57.494023
+    },
+    {
+      "name": "Blue Penny Museum",
+      "kind": "museum",
+      "at": 933.9,
+      "side": "left",
+      "lat": -20.160906,
+      "lon": 57.497501
+    },
+    {
+      "name": "Caudan Taxi Stand",
+      "kind": "taxi",
+      "at": 1026.1,
+      "side": "right",
+      "lat": -20.161754,
+      "lon": 57.497516
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "signal",
+      "name": "Signal Mountain",
+      "elev": 323,
+      "bearing": 198.3,
+      "rel": -112.2,
+      "side": "left",
+      "distKm": 1.43,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "signaux",
+      "name": "Montagne des Signaux",
+      "elev": 323,
+      "bearing": 201.9,
+      "rel": -108.5,
+      "side": "left",
+      "distKm": 1.62,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "le_pouce",
+      "name": "Le Pouce",
+      "elev": 812,
+      "bearing": 139.0,
+      "rel": -171.5,
+      "side": "behind",
+      "distKm": 5.28,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "pieter_both",
+      "name": "Pieter Both",
+      "elev": 820,
+      "bearing": 150.7,
+      "rel": -159.8,
+      "side": "behind",
+      "distKm": 7.26,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 248.3,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 41,
+  "polyline_slim": [
+    [
+      -20.162515,
+      57.497691
+    ],
+    [
+      -20.162657,
+      57.497305
+    ],
+    [
+      -20.16284,
+      57.496838
+    ],
+    [
+      -20.16302,
+      57.4963
+    ],
+    [
+      -20.16311,
+      57.495926
+    ],
+    [
+      -20.163156,
+      57.495392
+    ],
+    [
+      -20.163073,
+      57.494987
+    ],
+    [
+      -20.162645,
+      57.494491
+    ],
+    [
+      -20.162429,
+      57.494187
+    ],
+    [
+      -20.162681,
+      57.493608
+    ],
+    [
+      -20.160758,
+      57.49734
+    ],
+    [
+      -20.161111,
+      57.497254
+    ],
+    [
+      -20.16125,
+      57.497661
+    ],
+    [
+      -20.160255,
+      57.495049
+    ]
+  ]
+}

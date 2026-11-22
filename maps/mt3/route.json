@@ -1,0 +1,532 @@
+{
+  "uid": "mt3",
+  "name": "Pamplemousses Garden",
+  "blurb": "Garden avenues (Pierre Poivre, Adrien D’Epinay, Stevenson, Darwin) through the SSR Botanical Garden.",
+  "routeName": "Avenue Pierre Poivre / Avenue Adrien D'Epinay (Escalier) / Avenue Adrien d'Épinay / Avenue Adrien D'Epinay (Escalier) / Avenue Stevenson / Avenue Charles Darwin / Avenue Alexis Rochon / Avenue Baker",
+  "lengthM": 2389.1,
+  "sea": "both",
+  "roads": [
+    {
+      "name": "Avenue Pierre Poivre",
+      "at": 0,
+      "length": 317.7,
+      "highway": "footway"
+    },
+    {
+      "name": "Avenue Adrien D'Epinay (Escalier)",
+      "at": 317.7,
+      "length": 44.3,
+      "highway": "steps"
+    },
+    {
+      "name": "Avenue Adrien d'Épinay",
+      "at": 362.0,
+      "length": 346.0,
+      "highway": "footway"
+    },
+    {
+      "name": "Avenue Adrien D'Epinay (Escalier)",
+      "at": 708.0,
+      "length": 288.4,
+      "highway": "steps"
+    },
+    {
+      "name": "Avenue Stevenson",
+      "at": 996.3,
+      "length": 409.7,
+      "highway": "footway"
+    },
+    {
+      "name": "Avenue Charles Darwin",
+      "at": 1406.1,
+      "length": 227.9,
+      "highway": "footway"
+    },
+    {
+      "name": "Avenue Alexis Rochon",
+      "at": 1634.0,
+      "length": 310.5,
+      "highway": "footway"
+    },
+    {
+      "name": "Avenue Baker",
+      "at": 1944.5,
+      "length": 444.7,
+      "highway": "footway"
+    }
+  ],
+  "turns": [
+    {
+      "at": 170.0,
+      "dir": "right",
+      "deg": 57.1,
+      "road": "Avenue Pierre Poivre"
+    },
+    {
+      "at": 295.9,
+      "dir": "right",
+      "deg": 38.5,
+      "road": "Avenue Pierre Poivre"
+    },
+    {
+      "at": 384.2,
+      "dir": "right",
+      "deg": 135.0,
+      "road": "Avenue Adrien d'Épinay"
+    },
+    {
+      "at": 563.3,
+      "dir": "left",
+      "deg": 111.0,
+      "road": "Avenue Adrien d'Épinay"
+    },
+    {
+      "at": 649.2,
+      "dir": "right",
+      "deg": 158.0,
+      "road": "Avenue Adrien d'Épinay"
+    },
+    {
+      "at": 789.3,
+      "dir": "right",
+      "deg": 117.9,
+      "road": "Avenue Adrien D'Epinay (Escalier)"
+    },
+    {
+      "at": 952.2,
+      "dir": "left",
+      "deg": 55.3,
+      "road": "Avenue Adrien D'Epinay (Escalier)"
+    },
+    {
+      "at": 1040.4,
+      "dir": "left",
+      "deg": 33.7,
+      "road": "Avenue Stevenson"
+    },
+    {
+      "at": 1149.3,
+      "dir": "left",
+      "deg": 36.0,
+      "road": "Avenue Stevenson"
+    },
+    {
+      "at": 1315.2,
+      "dir": "left",
+      "deg": 28.8,
+      "road": "Avenue Stevenson"
+    },
+    {
+      "at": 1513.6,
+      "dir": "left",
+      "deg": 165.4,
+      "road": "Avenue Charles Darwin"
+    },
+    {
+      "at": 1634.0,
+      "dir": "right",
+      "deg": 176.7,
+      "road": "Avenue Alexis Rochon"
+    },
+    {
+      "at": 1854.3,
+      "dir": "right",
+      "deg": 29.1,
+      "road": "Avenue Alexis Rochon"
+    },
+    {
+      "at": 1944.5,
+      "dir": "left",
+      "deg": 168.8,
+      "road": "Avenue Alexis Rochon"
+    },
+    {
+      "at": 2320.2,
+      "dir": "left",
+      "deg": 50.3,
+      "road": "Avenue Baker"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 97.7,
+      "sea": "right",
+      "road": "Avenue Pierre Poivre",
+      "density": "low",
+      "buildings": 1
+    },
+    {
+      "at": 87.2,
+      "heading": 108.3,
+      "sea": "both",
+      "road": "Avenue Pierre Poivre",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 170.0,
+      "heading": 165.4,
+      "turn": "right",
+      "sea": "both",
+      "road": "Avenue Pierre Poivre",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 295.9,
+      "heading": 203.9,
+      "turn": "right",
+      "sea": "both",
+      "road": "Avenue Pierre Poivre",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 384.2,
+      "heading": 338.9,
+      "turn": "right",
+      "sea": "both",
+      "road": "Avenue Adrien d'Épinay",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 470.4,
+      "heading": 338.2,
+      "sea": "both",
+      "road": "Avenue Adrien d'Épinay",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 563.3,
+      "heading": 227.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Avenue Adrien d'Épinay",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 649.2,
+      "heading": 25.1,
+      "turn": "right",
+      "sea": "right",
+      "road": "Avenue Adrien d'Épinay",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 789.3,
+      "heading": 143.0,
+      "turn": "right",
+      "sea": "both",
+      "road": "Avenue Adrien D'Epinay (Escalier)",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 952.2,
+      "heading": 87.7,
+      "turn": "left",
+      "sea": "both",
+      "road": "Avenue Adrien D'Epinay (Escalier)",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1040.4,
+      "heading": 54.0,
+      "turn": "left",
+      "sea": "right",
+      "road": "Avenue Stevenson",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1149.3,
+      "heading": 18.0,
+      "turn": "left",
+      "sea": "both",
+      "road": "Avenue Stevenson",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1231.8,
+      "heading": 16.6,
+      "sea": "both",
+      "road": "Avenue Stevenson",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1315.2,
+      "heading": 347.7,
+      "turn": "left",
+      "sea": "both",
+      "road": "Avenue Stevenson",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1401.7,
+      "heading": 354.4,
+      "sea": "both",
+      "road": "Avenue Stevenson",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1513.6,
+      "heading": 189.0,
+      "turn": "left",
+      "sea": "both",
+      "road": "Avenue Charles Darwin",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1634.0,
+      "heading": 5.6,
+      "turn": "right",
+      "sea": "both",
+      "road": "Avenue Alexis Rochon",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1854.3,
+      "heading": 34.8,
+      "turn": "right",
+      "sea": "both",
+      "road": "Avenue Alexis Rochon",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1944.5,
+      "heading": 226.0,
+      "turn": "left",
+      "sea": "both",
+      "road": "Avenue Alexis Rochon",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2320.2,
+      "heading": 175.7,
+      "turn": "left",
+      "sea": "both",
+      "road": "Avenue Baker",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 2381.3,
+      "heading": 185.0,
+      "sea": "both",
+      "road": "Avenue Baker",
+      "density": "low",
+      "buildings": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Victoria Amazonica",
+      "kind": "poi",
+      "at": 1573.8,
+      "side": "left",
+      "lat": -20.107917,
+      "lon": 57.580098
+    },
+    {
+      "name": "Château de Mon Plaisir",
+      "kind": "poi",
+      "at": 1944.5,
+      "side": "right",
+      "lat": -20.105779,
+      "lon": 57.58079
+    },
+    {
+      "name": "SSR Botanical Garden",
+      "kind": "attraction",
+      "at": 2132.4,
+      "side": "right",
+      "lat": -20.106793,
+      "lon": 57.579015
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "le_pouce",
+      "name": "Le Pouce",
+      "elev": 812,
+      "bearing": 208.6,
+      "rel": 78.5,
+      "side": "right",
+      "distKm": 11.22,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "pieter_both",
+      "name": "Pieter Both",
+      "elev": 820,
+      "bearing": 203.4,
+      "rel": 73.3,
+      "side": "right",
+      "distKm": 13.29,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 110.5,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 80,
+  "polyline_slim": [
+    [
+      -20.10804,
+      57.577364
+    ],
+    [
+      -20.108067,
+      57.57776
+    ],
+    [
+      -20.108302,
+      57.578086
+    ],
+    [
+      -20.108613,
+      57.578584
+    ],
+    [
+      -20.10919,
+      57.578847
+    ],
+    [
+      -20.109842,
+      57.578881
+    ],
+    [
+      -20.109842,
+      57.578881
+    ],
+    [
+      -20.109818,
+      57.578456
+    ],
+    [
+      -20.109443,
+      57.578409
+    ],
+    [
+      -20.109065,
+      57.578448
+    ],
+    [
+      -20.108838,
+      57.578037
+    ],
+    [
+      -20.108762,
+      57.57766
+    ],
+    [
+      -20.108771,
+      57.577323
+    ],
+    [
+      -20.108388,
+      57.577577
+    ],
+    [
+      -20.108067,
+      57.57776
+    ],
+    [
+      -20.108794,
+      57.577829
+    ],
+    [
+      -20.109089,
+      57.578081
+    ],
+    [
+      -20.109842,
+      57.578881
+    ],
+    [
+      -20.109816,
+      57.579303
+    ],
+    [
+      -20.109757,
+      57.57972
+    ],
+    [
+      -20.109502,
+      57.580112
+    ],
+    [
+      -20.109052,
+      57.580384
+    ],
+    [
+      -20.1087,
+      57.580505
+    ],
+    [
+      -20.108505,
+      57.580758
+    ],
+    [
+      -20.108144,
+      57.580873
+    ],
+    [
+      -20.107864,
+      57.581133
+    ],
+    [
+      -20.107109,
+      57.580986
+    ],
+    [
+      -20.107486,
+      57.580054
+    ],
+    [
+      -20.108555,
+      57.579875
+    ],
+    [
+      -20.106585,
+      57.580081
+    ],
+    [
+      -20.106177,
+      57.580257
+    ],
+    [
+      -20.105831,
+      57.58039
+    ],
+    [
+      -20.108177,
+      57.577805
+    ],
+    [
+      -20.108603,
+      57.577839
+    ],
+    [
+      -20.108794,
+      57.577829
+    ]
+  ]
+}

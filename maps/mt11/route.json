@@ -1,0 +1,421 @@
+{
+  "uid": "mt11",
+  "name": "Flic en Flac",
+  "blurb": "Flic en Flac Road and the west-coast Coastal Road through Wolmar.",
+  "routeName": "Road / Avenue du Radar / Avenue des Nénuphars / Avenue du Radar / Avenue des Hirondelles / Avenue du Radar / Avenue des Flamingos / Avenue des Cygognes / Avenue des Alouettes / Avenue des Rossignois / Avenue des Pigeons / Avenue des Crecerelles / Avenue des Perroquets / Avenue Cato Vert 1 / Avenue des Kestrels / Avenue des Albatross",
+  "lengthM": 2171.3,
+  "sea": "left",
+  "roads": [
+    {
+      "name": "Road",
+      "at": 0,
+      "length": 52.2,
+      "highway": ""
+    },
+    {
+      "name": "Avenue du Radar",
+      "at": 52.2,
+      "length": 358.6,
+      "highway": "unclassified"
+    },
+    {
+      "name": "Avenue des Nénuphars",
+      "at": 410.8,
+      "length": 53.7,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue du Radar",
+      "at": 464.5,
+      "length": 40.7,
+      "highway": "unclassified"
+    },
+    {
+      "name": "Avenue des Hirondelles",
+      "at": 505.1,
+      "length": 26.3,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue du Radar",
+      "at": 531.4,
+      "length": 93.3,
+      "highway": "unclassified"
+    },
+    {
+      "name": "Avenue des Flamingos",
+      "at": 624.7,
+      "length": 76.5,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Avenue des Cygognes",
+      "at": 701.2,
+      "length": 45.9,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue des Alouettes",
+      "at": 747.1,
+      "length": 53.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue des Rossignois",
+      "at": 800.6,
+      "length": 292.1,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue des Pigeons",
+      "at": 1092.7,
+      "length": 30.6,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue des Crecerelles",
+      "at": 1123.3,
+      "length": 60.4,
+      "highway": "unclassified"
+    },
+    {
+      "name": "Avenue des Perroquets",
+      "at": 1183.7,
+      "length": 61.4,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue Cato Vert 1",
+      "at": 1245.1,
+      "length": 151.4,
+      "highway": "residential"
+    },
+    {
+      "name": "Avenue des Kestrels",
+      "at": 1396.5,
+      "length": 571.0,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Avenue des Albatross",
+      "at": 1967.4,
+      "length": 203.9,
+      "highway": "residential"
+    }
+  ],
+  "turns": [
+    {
+      "at": 87.2,
+      "dir": "left",
+      "deg": 64.9,
+      "road": "Avenue du Radar"
+    },
+    {
+      "at": 197.2,
+      "dir": "right",
+      "deg": 104.9,
+      "road": "Avenue du Radar"
+    },
+    {
+      "at": 410.8,
+      "dir": "left",
+      "deg": 27.9,
+      "road": "Avenue du Radar"
+    },
+    {
+      "at": 624.7,
+      "dir": "left",
+      "deg": 173.2,
+      "road": "Avenue des Flamingos"
+    },
+    {
+      "at": 732.0,
+      "dir": "left",
+      "deg": 87.6,
+      "road": "Avenue des Cygognes"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 90.0,
+      "sea": "both",
+      "road": "Road",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 87.2,
+      "heading": 25.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Avenue du Radar",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 197.2,
+      "heading": 130.0,
+      "turn": "right",
+      "sea": "left",
+      "road": "Avenue du Radar",
+      "density": "high",
+      "buildings": 18
+    },
+    {
+      "at": 410.8,
+      "heading": 102.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Avenue du Radar",
+      "density": "high",
+      "buildings": 22
+    },
+    {
+      "at": 495.8,
+      "heading": 95.2,
+      "sea": "left",
+      "road": "Avenue du Radar",
+      "density": "high",
+      "buildings": 22
+    },
+    {
+      "at": 624.7,
+      "heading": 282.0,
+      "turn": "left",
+      "sea": "left",
+      "road": "Avenue des Flamingos",
+      "density": "high",
+      "buildings": 20
+    },
+    {
+      "at": 732.0,
+      "heading": 194.4,
+      "turn": "left",
+      "sea": "left",
+      "road": "Avenue des Cygognes",
+      "density": "high",
+      "buildings": 16
+    },
+    {
+      "at": 1092.7,
+      "heading": 191.1,
+      "sea": "left",
+      "road": "Avenue des Rossignois",
+      "density": "high",
+      "buildings": 29
+    },
+    {
+      "at": 1183.7,
+      "heading": 192.5,
+      "sea": "left",
+      "road": "Avenue des Crecerelles",
+      "density": "high",
+      "buildings": 14
+    },
+    {
+      "at": 1396.5,
+      "heading": 193.5,
+      "sea": "left",
+      "road": "Avenue Cato Vert 1",
+      "density": "medium",
+      "buildings": 7
+    },
+    {
+      "at": 1553.2,
+      "heading": 193.5,
+      "sea": "left",
+      "road": "Avenue des Kestrels",
+      "density": "low",
+      "buildings": 0
+    },
+    {
+      "at": 1743.6,
+      "heading": 193.6,
+      "sea": "left",
+      "road": "Avenue des Kestrels",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 1967.4,
+      "heading": 193.5,
+      "sea": "left",
+      "road": "Avenue des Kestrels",
+      "density": "high",
+      "buildings": 14
+    },
+    {
+      "at": 2123.9,
+      "heading": 192.1,
+      "sea": "left",
+      "road": "Avenue des Albatross",
+      "density": "high",
+      "buildings": 8
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Flic en Flac",
+      "kind": "attraction",
+      "at": 0.0,
+      "side": "right",
+      "lat": -20.281073,
+      "lon": 57.364639
+    },
+    {
+      "name": "Casuarinas",
+      "kind": "poi",
+      "at": 1092.7,
+      "side": "right",
+      "lat": -20.283699,
+      "lon": 57.366189
+    },
+    {
+      "name": "Public Beach",
+      "kind": "guest_house",
+      "at": 1396.5,
+      "side": "right",
+      "lat": -20.286985,
+      "lon": 57.366973
+    },
+    {
+      "name": "Wolmar",
+      "kind": "hotel",
+      "at": 1967.4,
+      "side": "left",
+      "lat": -20.292119,
+      "lon": 57.365875
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "rempart",
+      "name": "Montagne du Rempart",
+      "elev": 545,
+      "bearing": 100.9,
+      "rel": 17.9,
+      "side": "ahead",
+      "distKm": 5.88,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "trois_mamelles",
+      "name": "Trois Mamelles",
+      "elev": 504,
+      "bearing": 108.1,
+      "rel": 25.1,
+      "side": "right",
+      "distKm": 8.6,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "le_morne",
+      "name": "Le Morne Brabant",
+      "elev": 556,
+      "bearing": 197.2,
+      "rel": 114.2,
+      "side": "right",
+      "distKm": 20.39,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 70.3,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 40,
+  "polyline_slim": [
+    [
+      -20.2807,
+      57.3656
+    ],
+    [
+      -20.2807,
+      57.3661
+    ],
+    [
+      -20.28,
+      57.3664
+    ],
+    [
+      -20.280228,
+      57.366929
+    ],
+    [
+      -20.28058,
+      57.366916
+    ],
+    [
+      -20.280876,
+      57.36852
+    ],
+    [
+      -20.280977,
+      57.369023
+    ],
+    [
+      -20.281043,
+      57.369405
+    ],
+    [
+      -20.281,
+      57.3695
+    ],
+    [
+      -20.281,
+      57.369
+    ],
+    [
+      -20.2809,
+      57.3685
+    ],
+    [
+      -20.281379,
+      57.36843
+    ],
+    [
+      -20.281978,
+      57.368273
+    ],
+    [
+      -20.284553,
+      57.36774
+    ],
+    [
+      -20.285355,
+      57.367568
+    ],
+    [
+      -20.285893,
+      57.367441
+    ],
+    [
+      -20.287214,
+      57.367096
+    ],
+    [
+      -20.288584,
+      57.366746
+    ],
+    [
+      -20.290247,
+      57.366321
+    ],
+    [
+      -20.2922,
+      57.365815
+    ],
+    [
+      -20.293568,
+      57.365465
+    ],
+    [
+      -20.293984,
+      57.36537
+    ]
+  ]
+}

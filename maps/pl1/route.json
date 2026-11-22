@@ -1,0 +1,592 @@
+{
+  "uid": "pl1",
+  "name": "Port Louis Streets",
+  "blurb": "Caudan Waterfront to Place d'Armes, along Royal Street through Chinatown past the Central Market to the Jummah Mosque.",
+  "routeName": "Caudan Waterfront Road / Caudan Approach Road / Autoroute Port-Louis – Sud / Port Louis – The South Motorway / Rue John Kennedy / Farquar Street / Farquhar Street / Rue William Newton / Rue Bissoondoyal / Royal Street / Rue William Newton / Rue de la Corderie / Rue Royale / Rue La Paix",
+  "lengthM": 1928.2,
+  "sea": "both",
+  "roads": [
+    {
+      "name": "Caudan Waterfront Road",
+      "at": 0,
+      "length": 347.4,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Caudan Approach Road",
+      "at": 347.7,
+      "length": 137.0,
+      "highway": "tertiary"
+    },
+    {
+      "name": "Autoroute Port-Louis – Sud",
+      "at": 484.6,
+      "length": 147.7,
+      "highway": "trunk"
+    },
+    {
+      "name": "Port Louis – The South Motorway",
+      "at": 632.2,
+      "length": 53.4,
+      "highway": "trunk"
+    },
+    {
+      "name": "Rue John Kennedy",
+      "at": 706.5,
+      "length": 69.2,
+      "highway": "primary"
+    },
+    {
+      "name": "Farquar Street",
+      "at": 839.7,
+      "length": 37.1,
+      "highway": "primary"
+    },
+    {
+      "name": "Farquhar Street",
+      "at": 876.8,
+      "length": 56.8,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue William Newton",
+      "at": 933.6,
+      "length": 46.5,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue Bissoondoyal",
+      "at": 999.3,
+      "length": 106.0,
+      "highway": "primary"
+    },
+    {
+      "name": "Royal Street",
+      "at": 1105.4,
+      "length": 85.1,
+      "highway": "primary"
+    },
+    {
+      "name": "Rue William Newton",
+      "at": 1211.6,
+      "length": 101.2,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue de la Corderie",
+      "at": 1312.8,
+      "length": 138.0,
+      "highway": "residential"
+    },
+    {
+      "name": "Rue Royale",
+      "at": 1450.9,
+      "length": 281.5,
+      "highway": "primary"
+    },
+    {
+      "name": "Rue La Paix",
+      "at": 1732.5,
+      "length": 195.7,
+      "highway": "residential"
+    }
+  ],
+  "turns": [
+    {
+      "at": 81.3,
+      "dir": "left",
+      "deg": 67.5,
+      "road": "Caudan Waterfront Road"
+    },
+    {
+      "at": 162.3,
+      "dir": "right",
+      "deg": 66.0,
+      "road": "Caudan Waterfront Road"
+    },
+    {
+      "at": 251.7,
+      "dir": "right",
+      "deg": 97.5,
+      "road": "Caudan Waterfront Road"
+    },
+    {
+      "at": 334.2,
+      "dir": "right",
+      "deg": 65.6,
+      "road": "Caudan Waterfront Road"
+    },
+    {
+      "at": 415.3,
+      "dir": "left",
+      "deg": 100.9,
+      "road": "Caudan Approach Road"
+    },
+    {
+      "at": 590.4,
+      "dir": "right",
+      "deg": 24.9,
+      "road": "Autoroute Port-Louis – Sud"
+    },
+    {
+      "at": 775.7,
+      "dir": "left",
+      "deg": 48.1,
+      "road": "Rue John Kennedy"
+    },
+    {
+      "at": 876.8,
+      "dir": "right",
+      "deg": 25.0,
+      "road": "Farquar Street"
+    },
+    {
+      "at": 980.0,
+      "dir": "right",
+      "deg": 150.1,
+      "road": "Rue William Newton"
+    },
+    {
+      "at": 1081.0,
+      "dir": "left",
+      "deg": 86.3,
+      "road": "Rue Bissoondoyal"
+    },
+    {
+      "at": 1167.4,
+      "dir": "left",
+      "deg": 85.4,
+      "road": "Royal Street"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "heading": 17.4,
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 81.3,
+      "heading": 309.9,
+      "turn": "left",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "medium",
+      "buildings": 3
+    },
+    {
+      "at": 162.3,
+      "heading": 15.9,
+      "turn": "right",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "medium",
+      "buildings": 4
+    },
+    {
+      "at": 251.7,
+      "heading": 113.4,
+      "turn": "right",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "medium",
+      "buildings": 3
+    },
+    {
+      "at": 334.2,
+      "heading": 179.0,
+      "turn": "right",
+      "sea": "both",
+      "road": "Caudan Waterfront Road",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 415.3,
+      "heading": 78.1,
+      "turn": "left",
+      "sea": "left",
+      "road": "Caudan Approach Road",
+      "density": "medium",
+      "buildings": 3
+    },
+    {
+      "at": 505.5,
+      "heading": 65.1,
+      "sea": "both",
+      "road": "Autoroute Port-Louis – Sud",
+      "density": "low",
+      "buildings": 2
+    },
+    {
+      "at": 590.4,
+      "heading": 90.0,
+      "turn": "right",
+      "sea": "both",
+      "road": "Autoroute Port-Louis – Sud",
+      "density": "medium",
+      "buildings": 6
+    },
+    {
+      "at": 685.6,
+      "heading": 90.0,
+      "sea": "both",
+      "road": "Port Louis – The South Motorway",
+      "density": "high",
+      "buildings": 8
+    },
+    {
+      "at": 775.7,
+      "heading": 41.9,
+      "turn": "left",
+      "sea": "right",
+      "road": "Rue John Kennedy",
+      "density": "medium",
+      "buildings": 6
+    },
+    {
+      "at": 876.8,
+      "heading": 66.9,
+      "turn": "right",
+      "sea": "left",
+      "road": "Farquar Street",
+      "density": "high",
+      "buildings": 13
+    },
+    {
+      "at": 980.0,
+      "heading": 217.0,
+      "turn": "right",
+      "sea": "right",
+      "road": "Rue William Newton",
+      "density": "high",
+      "buildings": 15
+    },
+    {
+      "at": 1081.0,
+      "heading": 130.7,
+      "turn": "left",
+      "sea": "right",
+      "road": "Rue Bissoondoyal",
+      "density": "high",
+      "buildings": 12
+    },
+    {
+      "at": 1167.4,
+      "heading": 45.4,
+      "turn": "left",
+      "sea": "both",
+      "road": "Royal Street",
+      "density": "high",
+      "buildings": 10
+    },
+    {
+      "at": 1312.8,
+      "heading": 44.0,
+      "sea": "both",
+      "road": "Rue de la Corderie",
+      "density": "high",
+      "buildings": 21
+    },
+    {
+      "at": 1450.9,
+      "heading": 44.1,
+      "sea": "both",
+      "road": "Rue Royale",
+      "density": "high",
+      "buildings": 27
+    },
+    {
+      "at": 1597.9,
+      "heading": 44.1,
+      "sea": "both",
+      "road": "Rue Royale",
+      "density": "high",
+      "buildings": 27
+    },
+    {
+      "at": 1732.5,
+      "heading": 43.8,
+      "sea": "both",
+      "road": "Rue Royale",
+      "density": "high",
+      "buildings": 36
+    },
+    {
+      "at": 1863.1,
+      "heading": 44.0,
+      "sea": "left",
+      "road": "Rue La Paix",
+      "density": "high",
+      "buildings": 32
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Caudan Waterfront",
+      "kind": "quarter",
+      "at": 114.9,
+      "side": "right",
+      "lat": -20.161154,
+      "lon": 57.497511
+    },
+    {
+      "name": "Blue Penny Museum",
+      "kind": "museum",
+      "at": 162.3,
+      "side": "right",
+      "lat": -20.160906,
+      "lon": 57.497501
+    },
+    {
+      "name": "Postal Museum",
+      "kind": "museum",
+      "at": 933.6,
+      "side": "left",
+      "lat": -20.159946,
+      "lon": 57.501618
+    },
+    {
+      "name": "Place d'Armes",
+      "kind": "square",
+      "at": 1093.2,
+      "side": "left",
+      "lat": -20.161862,
+      "lon": 57.502226
+    },
+    {
+      "name": "Central Market",
+      "kind": "marketplace",
+      "at": 1312.8,
+      "side": "left",
+      "lat": -20.161155,
+      "lon": 57.503247
+    },
+    {
+      "name": "Jummah Mosque",
+      "kind": "place_of_worship",
+      "at": 1561.3,
+      "side": "left",
+      "lat": -20.159703,
+      "lon": 57.505053
+    },
+    {
+      "name": "Chinatown Arch",
+      "kind": "attraction",
+      "at": 1732.5,
+      "side": "left",
+      "lat": -20.158718,
+      "lon": 57.506515
+    }
+  ],
+  "stations": [],
+  "mountains": [
+    {
+      "id": "signal",
+      "name": "Signal Mountain",
+      "elev": 323,
+      "bearing": 212.8,
+      "rel": 145.0,
+      "side": "right",
+      "distKm": 1.64,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "signaux",
+      "name": "Montagne des Signaux",
+      "elev": 323,
+      "bearing": 214.4,
+      "rel": 146.6,
+      "side": "right",
+      "distKm": 1.85,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "le_pouce",
+      "name": "Le Pouce",
+      "elev": 812,
+      "bearing": 142.9,
+      "rel": 75.1,
+      "side": "right",
+      "distKm": 5.02,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "pieter_both",
+      "name": "Pieter Both",
+      "elev": 820,
+      "bearing": 153.9,
+      "rel": 86.1,
+      "side": "right",
+      "distKm": 7.08,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "ory",
+      "name": "Montagne Ory",
+      "elev": 500,
+      "bearing": 182.4,
+      "rel": 114.6,
+      "side": "right",
+      "distKm": 6.21,
+      "crater": false,
+      "islet": false
+    },
+    {
+      "id": "moka",
+      "name": "Moka Range",
+      "elev": 400,
+      "bearing": 167.3,
+      "rel": 99.4,
+      "side": "right",
+      "distKm": 5.44,
+      "crater": false,
+      "islet": false
+    }
+  ],
+  "heading0": 1.9,
+  "attribution": "Map data © OpenStreetMap contributors, ODbL 1.0",
+  "source": "OpenStreetMap (official map API / Overpass), November 2026",
+  "nPoints": 81,
+  "polyline_slim": [
+    [
+      -20.162,
+      57.4977
+    ],
+    [
+      -20.161386,
+      57.497764
+    ],
+    [
+      -20.161141,
+      57.497296
+    ],
+    [
+      -20.160758,
+      57.49734
+    ],
+    [
+      -20.161111,
+      57.497254
+    ],
+    [
+      -20.16125,
+      57.497661
+    ],
+    [
+      -20.161674,
+      57.497766
+    ],
+    [
+      -20.162059,
+      57.497761
+    ],
+    [
+      -20.1624,
+      57.498
+    ],
+    [
+      -20.162292,
+      57.498515
+    ],
+    [
+      -20.162111,
+      57.498896
+    ],
+    [
+      -20.1622,
+      57.4996
+    ],
+    [
+      -20.1622,
+      57.5
+    ],
+    [
+      -20.1623,
+      57.5005
+    ],
+    [
+      -20.162164,
+      57.500884
+    ],
+    [
+      -20.161863,
+      57.501167
+    ],
+    [
+      -20.161559,
+      57.501447
+    ],
+    [
+      -20.1611,
+      57.5016
+    ],
+    [
+      -20.1609,
+      57.5021
+    ],
+    [
+      -20.161179,
+      57.50177
+    ],
+    [
+      -20.1615,
+      57.5017
+    ],
+    [
+      -20.161875,
+      57.502125
+    ],
+    [
+      -20.162394,
+      57.502739
+    ],
+    [
+      -20.162108,
+      57.503033
+    ],
+    [
+      -20.161445,
+      57.503696
+    ],
+    [
+      -20.161037,
+      57.504115
+    ],
+    [
+      -20.160553,
+      57.504615
+    ],
+    [
+      -20.160077,
+      57.505107
+    ],
+    [
+      -20.159605,
+      57.505594
+    ],
+    [
+      -20.159221,
+      57.505989
+    ],
+    [
+      -20.158742,
+      57.506495
+    ],
+    [
+      -20.157895,
+      57.507361
+    ],
+    [
+      -20.157475,
+      57.507794
+    ]
+  ]
+}
