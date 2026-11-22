@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0b3f8f">
+<title>Dodo City Runner – 17 Mauritius levels</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<div id="introHint" class="hidden">Tap or press Space / Esc / Enter to skip</div>
+
+<div id="hud" class="hidden">
+  <div class="hud-left">
+    <div class="hud-score"><span id="hudScore">0</span><small>SCORE</small></div>
+    <div class="hud-coins"><i class="coin"></i><span id="hudCoins">0</span></div>
+  </div>
+  <div class="hud-mid">
+    <div class="lvl-name" id="hudLevel">LEVEL 1</div>
+    <div class="bar"><div id="hudBar"></div><span id="hudDist">0 / 1100 m</span></div>
+  </div>
+  <div class="hud-right">
+    <button id="btnMute" class="icon" aria-label="Mute">🔊</button>
+    <button id="btnPause" class="icon" aria-label="Pause">❚❚</button>
+  </div>
+  <div class="guard" id="hudGuard"><span>👨‍🍳</span><div class="gbar"><div id="hudGuardBar"></div></div></div>
+  <div id="streetHud"><div class="sroad">—</div><div class="snext"></div><div class="sstrip"><div class="sfill" id="streetFill"></div></div></div>
+  <div id="powerHud" class="hidden"><span class="plab">FLY</span><div class="pbar"><div class="pfill"></div></div></div>
+  <div id="toast"></div>
+  <div id="countdown"></div>
+  <div id="hint" class="hidden">← → change lane &nbsp;·&nbsp; ↑ / Space jump &nbsp;·&nbsp; ↓ slide &nbsp;·&nbsp; swipe on touch screens</div>
+  <div id="touchPad" class="hidden">
+    <button type="button" id="tpL" aria-label="Left">◀</button>
+    <div class="tp-mid"><button type="button" id="tpU" aria-label="Jump">▲ JUMP</button><button type="button" id="tpD" aria-label="Slide">▼ SLIDE</button></div>
+    <button type="button" id="tpR" aria-label="Right">▶</button>
+  </div>
+</div>
+
+<div id="loading" class="screen">
+  <div class="logo small">DODO CITY RUNNER</div>
+  <div class="loadbar"><div id="loadFill"></div></div>
+  <p id="loadText">Loading the dodo…</p>
+</div>
+
+<div id="title" class="screen hidden">
+  <div class="panel">
+    <div class="logo">DODO<br>CITY RUNNER</div>
+    <div class="sub">Port Louis · Moris Tour · 17 levels across Mauritius · Run for your life!</div>
+    <button class="btn big" id="btnPlay">▶ PLAY</button>
+    <button class="btn" id="btnLevels">LEVELS</button>
+    <button class="btn" id="btnChars">🦤 CHARACTER</button>
+    <div class="row">
+      <button class="btn small" id="btnSound">🔊 SOUND</button>
+      <button class="btn small" id="btnCredits">CREDITS</button>
+      <button class="btn small" id="btnIntro">LAB INTRO</button>
+    </div>
+    <div class="ctrl">← → lanes · ↑/Space jump · ↓ slide · P pause · M mute<br>Touch: swipe left / right / up / down</div>
+  </div>
+  <div class="credit-line">Dodo model “Dodo [ Extinct Bird ]” by BlueMesh (Sketchfab, CC BY 4.0) · Male Officer by J-Toastie (CC BY 3.0) · three.js · Quaternius CC0</div>
+</div>
+
+<div id="levels" class="screen hidden">
+  <div class="panel wide">
+    <h2>SELECT LEVEL</h2>
+    <div id="worldTabs"></div>
+    <div id="levelCards"></div>
+    <button class="btn" id="btnLevelsBack">← BACK</button>
+  </div>
+</div>
+
+<div id="characters" class="screen hidden">
+  <div class="panel wide">
+    <h2>CHOOSE YOUR RUNNER</h2>
+    <div id="charCards"></div>
+    <button class="btn" id="btnCharsBack">← BACK</button>
+  </div>
+</div>
+
+<div id="sound" class="screen hidden">
+  <div class="panel">
+    <h2>SOUND</h2>
+    <label>Master <input type="range" id="volMaster" min="0" max="1" step="0.05"></label>
+    <label>Music <input type="range" id="volMusic" min="0" max="1" step="0.05"></label>
+    <label>Effects &amp; city <input type="range" id="volSfx" min="0" max="1" step="0.05"></label>
+    <button class="btn" id="btnMute2">MUTE</button>
+    <button class="btn" id="btnSoundBack">← BACK</button>
+  </div>
+</div>
+
+<div id="credits" class="screen hidden">
+  <div class="panel wide left">
+    <h2>CREDITS</h2>
+    <p><b>Dodo model</b> — “Dodo [ Extinct Bird ]” by <b>BlueMesh</b> on Sketchfab, licensed CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" style="color:#ffd34d">creativecommons.org/licenses/by/4.0</a>). Rigged model used as supplied; run, jump and slide poses are animated procedurally in-game and the broken exported eyes were replaced with simple ones.</p>
+    <p><b>Characters &amp; animals</b> — <a href="https://quaternius.com" target="_blank" rel="noopener" style="color:#ffd34d">Quaternius</a> (CC0): chef, suit man, man, three women, adventurer, farmer, worker, shiba, chicken, cow, pig, deer, sheep, cars and traffic cone. <b>“Male Officer”</b> by J-Toastie (poly.pizza, CC BY 3.0) is the Policier.</p>
+    <p><b>Props</b> — “Cartoony Purple Motorcycle” by AliceCassie (CC0), “Fruit Crate” by BlenderVoyage (CC0), Quaternius boats, stall and rocks (CC0). Everything else (carts, trucks, tractor, scenery, sky) is generated in code.</p>
+    <p><b>Music</b> — instrumental sega / seggae supplied with the project (looping, one track per level). <i>Tousse Sali</i> and <i>Ratintin</i> (bundled tracks, artist unknown); <i>Roul Matak</i> — Bigg Frankii ft. Jor'Dan; <i>Sega Tioula</i> — Bigg Frankii ft. Baron &amp; DJ DarkSoul; <i>Rêve Nou Ancêtres</i> — Cassiya; <i>Li Tourner</i> — Dj Assad ft. Alain Ramanisum &amp; Willy William; <i>Angui La Kordé</i> — Médérice &amp; Clarel Armel; <i>La Métisse</i> — Zulu ft. Mario Ramsamy; <i>Posson Salé</i> — Sylvio Louise; <i>Tik Tiké</i> — Laura Beg; plus <i>Natcho Beti (instrumental)</i> — artist unknown. These are instrumental versions of commercial songs — confirm rights before any public release (see README).</p>
+    <p><b>Engine</b> — three.js (MIT). Buses, metro trains, buildings and sounds are generated in code.</p>
+    <p><b>Maps</b> — Level layouts follow ordered polylines of real named roads stitched from <b>OpenStreetMap</b> data. Map data © OpenStreetMap contributors, licensed under the Open Database Licence (ODbL). See maps/README.md.</p>
+<p><b>Mountains &amp; sea</b> — Recognisable Mauritian silhouettes (Le Pouce, Pieter Both, Le Morne, Lion Mountain, Trois Mamelles, and others) are hand-profiled from published elevations and reference views, placed on the correct bearing from each route. The lagoon water is a procedural shader (waves, fresnel, sun glint, reef surf). Boats are generated in-engine (CC0).</p>
+    <button class="btn" id="btnCreditsBack">← BACK</button>
+  </div>
+</div>
+
+<div id="pause" class="screen hidden">
+  <div class="panel">
+    <h2>PAUSED</h2>
+    <button class="btn big" id="btnResume">▶ RESUME</button>
+    <button class="btn" id="btnRestart">↻ RESTART LEVEL</button>
+    <button class="btn" id="btnPauseSound">🔊 SOUND</button>
+    <button class="btn" id="btnQuit">☰ MENU</button>
+  </div>
+</div>
+
+<div id="over" class="screen hidden">
+  <div class="panel">
+    <h2 id="overTitle">GAME OVER</h2>
+    <p id="overReason"></p>
+    <div class="stats"><div><small>SCORE</small><b id="overScore">0</b></div><div><small>COINS</small><b id="overCoins">0</b></div><div><small>DISTANCE</small><b id="overDist">0 m</b></div></div>
+    <button class="btn big" id="btnRetry">↻ TRY AGAIN</button>
+    <button class="btn" id="btnOverMenu">☰ LEVELS</button>
+  </div>
+</div>
+
+<div id="complete" class="screen hidden">
+  <div class="panel">
+    <h2>LEVEL COMPLETE!</h2>
+    <div class="stars" id="stars"></div>
+    <div class="stats"><div><small>SCORE</small><b id="cScore">0</b></div><div><small>COINS</small><b id="cCoins">0</b></div><div><small>BEST</small><b id="cBest">0</b></div></div>
+    <p id="cMsg"></p>
+    <button class="btn big" id="btnNext">NEXT LEVEL ▶</button>
+    <button class="btn" id="btnAgain">↻ REPLAY</button>
+    <button class="btn" id="btnCMenu">☰ LEVELS</button>
+  </div>
+</div>
+
+<script type="module" src="js/game.js"></script>
+</body>
+</html>
