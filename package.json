@@ -2,7 +2,7 @@
   "name": "dodo-city-runner",
   "version": "1.0.0",
   "private": true,
-  "description": "Subway Surfers-style 3D endless runner starring a dodo, set in Port Louis. Static three.js game; runs offline.",
+  "description": "A 3D endless runner set in Mauritius, starring a dodo. Static three.js game; runs offline.",
   "scripts": { "start": "python3 -m http.server 8080", "test": "node tools/test.mjs && node tools/test2.mjs" },
   "dependencies": { "three": "0.170.0" },
   "devDependencies": { "playwright": "*" }

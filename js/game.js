@@ -702,10 +702,9 @@ function updateVoices(dt) {
 const camPos = new THREE.Vector3(), camLook = new THREE.Vector3();
 function updateCamera(dt, snap) {
   const k = snap ? 1 : Math.min(1, dt * 7);
-  // Original design (and Kevin's): camera sits behind the chaser, looking past him at the dodo
-  // (Subway Surfers-style). When the dodo is high (fly / rooftop) pull back and lift the look
-  // so the chef does not fill the frame. A slightly higher look-at also keeps the mountain
-  // skyline inside the 62° gameplay frustum.
+  // Original design (and Kevin's): camera sits behind the chaser, looking past him at the dodo.
+  // When the dodo is high (fly / rooftop) pull back and lift the look so the chef does not fill
+  // the frame. A slightly higher look-at also keeps the mountain skyline inside the 62° frustum.
   const fly = Math.max(0, P.y - 0.9);
   const tx = P.x * 0.7, ty = 4.7 + P.y * 0.45 + fly * 1.15, tz = P.z + 8.8 + fly * 2.4;
   camPos.x += (tx - camPos.x) * k; camPos.y += (ty - camPos.y) * k; camPos.z += (tz - camPos.z) * (snap ? 1 : Math.min(1, dt * 20));

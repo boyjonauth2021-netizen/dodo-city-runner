@@ -14,6 +14,114 @@ export function markIntroSeen(save) {
   save.d.seenIntro = true; save.write();
 }
 
+// Same procedural run cycle as gameplay (Bone006 / Bone007 feet, spine bob, head bob).
+const FOOT = { A: 1.5, H: 1.3 };
+const _v3 = new THREE.Vector3(), _qa = new THREE.Quaternion(), _qb = new THREE.Quaternion(), _qc = new THREE.Quaternion(), _eu = new THREE.Euler();
+const sstep = (x) => { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); };
+function runFoot(u, out) {
+  u = ((u % 1) + 1) % 1;
+  if (u < 0.5) { out[0] = FOOT.A * (1 - 4 * u); out[1] = 0; out[2] = u > 0.4 ? -0.35 * ((u - 0.4) / 0.1) : 0; }
+  else { const v = (u - 0.5) / 0.5, e = sstep(v); out[0] = -FOOT.A + 2 * FOOT.A * e; out[1] = FOOT.H * Math.sin(Math.PI * Math.pow(v, 0.8)); out[2] = -0.35 - 0.35 * Math.sin(Math.PI * v) + 0.7 * v * v; }
+  return out;
+}
+const _f0 = [0, 0, 0], _f1 = [0, 0, 0];
+function addBone(rig, name, x, y, z) {
+  const b = rig.bones[name]; if (!b) return; _eu.set(x, y, z); b.quaternion.multiply(_qa.setFromEuler(_eu));
+}
+function driveFoot(rig, name, fwd, up, pitch, side) {
+  const b = rig.bones[name], r = rig.rest[name]; if (!b || !r) return;
+  _v3.set(side || 0, up, fwd).applyMatrix4(rig.inv).multiplyScalar(1 / rig.ps); b.position.copy(r.p).add(_v3);
+  _qa.setFromAxisAngle(_v3.set(1, 0, 0), pitch);
+  _qb.copy(rig.pq).invert(); _qc.copy(_qb).multiply(_qa).multiply(rig.pq); b.quaternion.copy(_qc).multiply(r.q);
+}
+function poseIntroRun(rig, phase, dt, spd, run, air) {
+  if (!rig) return { bob: 0, roll: 0, yaw: 0, pitch: 0 };
+  poseIntroRun.clipT = (poseIntroRun.clipT || 0) + dt * (0.9 + spd * 0.05);
+  rig.sample(poseIntroRun.clipT);
+  const u = phase / (Math.PI * 2);
+  runFoot(u, _f0); runFoot(u + 0.5, _f1);
+  const br = run ? 1 : 0, ba = air ? 1 : 0, bs = 0;
+  const tuck = [[1.0, 1.7, 0.55], [0.5, 2.1, 0.7]];
+  const names = ['Bone006_Armature002', 'Bone007_Armature002'];
+  const feet = [_f0, _f1];
+  for (let i = 0; i < 2; i++) {
+    const f = feet[i]; let fw = f[0] * br, up = f[1] * br, pi = f[2] * br;
+    fw = fw * (1 - ba) + tuck[i][0] * ba; up = up * (1 - ba) + tuck[i][1] * ba; pi = pi * (1 - ba) + tuck[i][2] * ba;
+    driveFoot(rig, names[i], fw, up, pi, 0);
+  }
+  const bob2 = Math.sin(phase * 2);
+  const lean = br * 0.12 + ba * 0.05;
+  addBone(rig, 'Bone_Armature002', lean + br * bob2 * 0.04, 0, br * Math.sin(phase) * 0.06);
+  addBone(rig, 'Bone001_Armature002', br * 0.02 * bob2, 0, br * Math.sin(phase) * 0.05);
+  const headUp = -(lean + br * 0.1) * 0.9 + ba * -0.1;
+  addBone(rig, 'Bone003_Armature002', headUp * 0.35 + br * bob2 * 0.05, 0, -br * Math.sin(phase) * 0.04);
+  addBone(rig, 'Bone004_Armature002', headUp * 0.35 - br * bob2 * 0.07, 0, -br * Math.sin(phase) * 0.04);
+  addBone(rig, 'Bone005_Armature002', headUp * 0.3 + br * bob2 * 0.06 + ba * 0.1, 0, 0);
+  const bob = run ? Math.abs(Math.sin(phase + 0.5)) * 0.07 : 0;
+  const roll = run ? Math.sin(phase) * 0.07 : 0;
+  const yaw = run ? Math.sin(phase) * 0.05 : 0;
+  const pitch = run ? -0.04 : (air ? 0.12 : 0);
+  return { bob, roll, yaw, pitch };
+}
+
+const TITLE_TEXT = ['DODO RESURRECTED', 'IN 2026'];
+function mountIntroTitle() {
+  let style = document.getElementById('introTitleStyle');
+  if (!style) {
+    style = document.createElement('style');
+    style.id = 'introTitleStyle';
+    style.textContent = `
+#introTitle{position:fixed;left:0;right:0;top:0;z-index:25;pointer-events:none;text-align:center;
+  padding:calc(10px + env(safe-area-inset-top,0px)) 12px 0;font-family:Impact,"Arial Black","Helvetica Neue",sans-serif;
+  font-weight:800;letter-spacing:.08em;line-height:1.05;text-transform:uppercase;
+  font-size:clamp(20px,5.6vw,44px);opacity:0;transition:opacity .25s linear;color:#7ff6ff;
+  text-shadow:0 0 6px #7ff6ff,0 0 16px #1ad0ff,0 0 28px rgba(0,180,255,.7),2px 0 0 rgba(255,40,60,.55),-2px 0 0 rgba(0,255,255,.45);
+  -webkit-text-stroke:0.5px rgba(0,0,0,.45);filter:none}
+#introTitle .il{display:block}
+#introTitle .ich{display:inline-block;transform:scale(0);opacity:0;
+  animation:introIn .55s cubic-bezier(.2,1.4,.4,1) forwards}
+#introTitle.alarm{color:#fff4f4;
+  text-shadow:0 0 6px #ff6a7a,0 0 16px #ff2030,0 0 28px rgba(255,30,60,.75),3px 0 0 rgba(255,30,60,.7),-3px 0 0 rgba(0,255,255,.7)}
+#introTitle.flicker{animation:introFlicker .12s steps(2) infinite}
+#introTitle .scan{position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,#fff,transparent);
+  opacity:.55;animation:introScan 2.2s linear infinite;pointer-events:none;mix-blend-mode:screen}
+@keyframes introIn{0%{transform:scale(1.8) translateY(-12px);opacity:0;filter:blur(4px)}
+  60%{transform:scale(1.05);opacity:1;filter:blur(0)}100%{transform:scale(1);opacity:1}}
+@keyframes introFlicker{0%,100%{opacity:1}40%{opacity:.72}70%{opacity:1}85%{opacity:.4}}
+@keyframes introScan{0%{top:8%;opacity:0}10%{opacity:.7}90%{opacity:.5}100%{top:78%;opacity:0}}
+@media (max-width:480px){#introTitle{font-size:clamp(18px,7.2vw,28px);letter-spacing:.06em}}
+`;
+    document.head.appendChild(style);
+  }
+  const old = document.getElementById('introTitle'); if (old) old.remove();
+  const el = document.createElement('div');
+  el.id = 'introTitle';
+  el.setAttribute('aria-hidden', 'true');
+  let html = '<div class="scan"></div>';
+  let i = 0;
+  for (const line of TITLE_TEXT) {
+    html += '<span class="il">';
+    for (const ch of line) {
+      if (ch === ' ') html += ' ';
+      else {
+        html += `<span class="ich" style="animation-delay:${0.28 + i * 0.045}s">${ch}</span>`;
+        i++;
+      }
+    }
+    html += '</span>';
+  }
+  el.innerHTML = html;
+  document.body.appendChild(el);
+  return el;
+}
+function tickIntroTitle(el, t) {
+  if (!el) return;
+  el.style.opacity = t < 0.15 ? '0' : (t > 7.35 ? String(Math.max(0, 1 - (t - 7.35) / 0.5)) : '1');
+  el.classList.toggle('alarm', t >= 3.1 && t < 7.2);
+  el.classList.toggle('flicker', t >= 3.1 && t < 6.4);
+}
+
+
 /**
  * Play the intro in a temporary scene using the same renderer/camera.
  * Resolves when finished or skipped. Calls onTick(t, skipped) optionally.
@@ -22,6 +130,9 @@ export function playIntro({ renderer, camera, audio, onSkip }) {
   return new Promise((resolve) => {
     const prevExposure = renderer.toneMappingExposure;
     renderer.toneMappingExposure = 1.55;
+    const titleEl = mountIntroTitle();
+    poseIntroRun.clipT = 0;
+    const gait = { phase: 0 };
 
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0x2a3e50);
@@ -212,6 +323,7 @@ export function playIntro({ renderer, camera, audio, onSkip }) {
     }
 
     const clock = { t: 0, skip: false, done: false, burst: false };
+
     const skip = () => { if (clock.done) return; clock.skip = true; finish(); };
     const onKey = (e) => { if (e.code === 'Space' || e.key === 'Escape' || e.key === 'Enter') skip(); };
     const onPtr = () => skip();
@@ -232,6 +344,7 @@ export function playIntro({ renderer, camera, audio, onSkip }) {
       if (audio && audio.labHum) audio.labHum(false);
       if (audio && audio.stopSiren) audio.stopSiren();
       renderer.toneMappingExposure = prevExposure;
+      if (titleEl) titleEl.remove();
       resolve({ skipped: clock.skip, t: clock.t });
     }
     function tickFx(dt) {
@@ -256,6 +369,7 @@ export function playIntro({ renderer, camera, audio, onSkip }) {
       clock.t += dt;
       const t = clock.t;
       tickFx(dt);
+      tickIntroTitle(titleEl, t);
       // pulsy monitors
       for (const m of monitors) m.material.opacity = 0.85 + 0.15 * Math.sin(t * 6);
 
@@ -293,11 +407,16 @@ export function playIntro({ renderer, camera, audio, onSkip }) {
         lid.rotation.z = Math.min(1.2, (t - 4.6) * 2.0);
         lid.position.x = (t - 4.6) * 1.4;
         const k = Math.min(1, (t - 4.6) / 0.8);
-        dodo.position.set(0, 0.35 + Math.sin(k * Math.PI) * 1.3, -k * 1.6);
-        dodo.rotation.x = -k * 0.4;
-        if (rig) rig.sample(t * 1.4);
-        camera.position.set(1.6 - k * 0.2, 2.1, 3.6 - k * 0.6);
-        camera.lookAt(dodo.position.x, 1.4 + dodo.position.y * 0.5, dodo.position.z);
+        const airY = Math.sin(k * Math.PI) * 1.3;
+        const air = airY > 0.18 && k < 0.98;
+        // hop toward the door, then a few steps on landing — feet driven by movement speed
+        const sp = k < 1 ? 2.2 : 3.0;
+        gait.phase += dt * (6 + sp * 0.5) * (air ? 0.45 : 1);
+        const pose = poseIntroRun(rig, gait.phase, dt, sp, !air, air);
+        dodo.position.set(0, 0.35 + airY + pose.bob, -k * 1.6);
+        dodo.rotation.set((air ? -0.25 : pose.pitch), Math.PI + pose.yaw, pose.roll);
+        camera.position.set(1.8 - k * 0.15, 1.7, 3.4 - k * 0.5);
+        camera.lookAt(dodo.position.x, 0.85 + dodo.position.y * 0.35, dodo.position.z);
         alarm.intensity *= 0.96;
         doorGlow.scale.x = Math.max(doorGlow.scale.x, 0.2 + k * 0.3);
         doorLight.intensity = 1.4 + k * 1.6;
@@ -305,11 +424,14 @@ export function playIntro({ renderer, camera, audio, onSkip }) {
         const k = Math.min(1, (t - 6.2) / 1.8);
         doorGlow.scale.x = Math.min(1, 0.5 + k * 1.2);
         doorLight.intensity = 3.2;
-        dodo.position.set(0, 0.2, -1.6 - k * 7.2);
-        dodo.rotation.set(0, Math.PI, 0);
-        if (rig) rig.sample(t * 2.2);
-        camera.position.set(2.2 - k * 0.4, 2.0, 1.0 - k * 3.2);
-        camera.lookAt(0, 1.25, dodo.position.z - 0.8);
+        const sp = 7.2 / 1.8; // m/s toward the door
+        gait.phase += dt * (7.5 + sp * 0.55);
+        const pose = poseIntroRun(rig, gait.phase, dt, sp, true, false);
+        dodo.position.set(0, 0.2 + pose.bob, -1.6 - k * 7.2);
+        dodo.rotation.set(pose.pitch, Math.PI + pose.yaw, pose.roll);
+        // 3/4 rear-side so the stepping feet stay readable
+        camera.position.set(2.45, 1.25, dodo.position.z + 2.85);
+        camera.lookAt(0, 0.55, dodo.position.z - 0.5);
         scene.background.lerp(new THREE.Color(0x8ed0f4), k * 0.35);
         doorGlow.material.color.lerp(new THREE.Color(0xc8ecff), k);
       }

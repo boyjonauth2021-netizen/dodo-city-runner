@@ -1,6 +1,6 @@
 # Dodo City Runner — Port Louis
 
-A Subway Surfers-style 3D endless runner. You are a **dodo** running through Port Louis streets and metro stations, dodging
+A 3D endless runner set in Mauritius. You are a **dodo** running through Port Louis streets and metro stations, dodging
 barriers, buses, cars and metro trains while a **guard (chef)** chases you. Static web game (three.js, ES modules), runs fully offline.
 
 ## Run it
